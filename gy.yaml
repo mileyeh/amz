@@ -5,315 +5,520 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技（2022.01.31）, server: 45.79.121.166, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 26美国∞中转, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 14台湾∞直连, server: 114.24.23.99, port: 59801, type: vmess, uuid: a209854a-30ed-4887-e7d2-70c7e45f814c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 114.24.23.99}, udp: true}
-  - {name: 科技网络 220, server: 167.88.63.61, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇯🇵JP-🇬🇧GB_649 | 2.91Mb, server: tt6.tjvpn.top, port: 443, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, sni: tt6.tjvpn.top, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 2, server: 198.57.27.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 27美国∞中转, server: 117.28.243.220, port: 8254, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: CYL-科技（2022.01.31） 3, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 9fd65683-3942-3dbf-be07-d2fcdff733f0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}, udp: true}
-  - {name: 60美国∞直连, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 64香港∞直连, server: 218.190.242.130, port: 443, type: trojan, password: daozhu-TGID-Uallen_Qbit-zhuanshudailidaoyongsiquanjia, skip-cert-verify: true, udp: true}
-  - {name: 中国【YouTube由零開始】, server: 42.157.8.52, port: 48727, type: vmess, uuid: 57aa5ac3-d1d0-4e2f-b32e-6488d5a7cb45, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_430+|10.06Mb, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: CN_476+|+8.30Mb, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: CYL-科技（2022.01.31） 4, server: 104.156.229.179, port: 443, type: vmess, uuid: 8d935367-dbcc-497f-b049-ac650a6914ab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: CYL-科技（2022.01.31） 5, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 52美国∞直连, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022.01.31） 6, server: 38.91.102.123, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: GB_469 |12.20Mb, server: 212.38.189.174, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB_1077 |10.01Mb, server: 212.38.189.174, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_407, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_30, server: t4.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Dallas-GTHost 158, server: 38.68.134.191, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _美国_YouTube:VV科技_74, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022.01.31） 7, server: 38.91.102.123, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _FR_法国, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB_588 |54.09Mb, server: 212.38.189.174, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US-38.68.135.112-503, server: 38.68.135.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CYL-科技（2022.01.31） 8, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _英国_YouTube:VV科技_31, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CYL-科技（2022.01.31） 9, server: 198.57.27.241, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: GB_529, server: 212.38.189.174, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国, server: 38.75.137.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Youtube小露分享, server: 105.wgong.xyz, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 10, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022.01.31） 11, server: 127.wgong.xyz, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾 |Pro|02|IEPL, server: 1.tw.zz.xxxxx.x-t-fuckword.network, port: 53137, type: vmess, uuid: ecf10946-ea50-3114-8ada-77ec88de5cc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 82, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022.01.31） 12, server: 172.99.190.84, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Atlanta-GTHost 440, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022.01.31） 13, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 7fb9b440-7514-11ec-a376-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
-  - {name: GB_1067 | 8.25Mb, server: 212.38.189.174, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 科技网络 137, server: 169.197.142.48, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国阿伟科技-新年快乐, server: xray.lixray.cf, port: 443, type: vmess, uuid: ff55ac62-eb94-414a-b58e-4f43ff8c896d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: xray.lixray.cf}, udp: true}
-  - {name: CYL-科技（2022.01.31） 14, server: 45.79.123.78, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_43, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 科技网络 38, server: t1.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 15, server: 134.195.196.147, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络 222, server: 38.68.134.23, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _加拿大_YouTube:VV科技_32, server: 198.57.27.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022.01.31） 16, server: 45.79.123.78, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络 313, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: GB_528, server: 212.38.189.174, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _美国_YouTube:VV科技_51, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 科技网络 355, server: 198.57.27.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022.01.31） 17, server: 172.99.190.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2022.01.31）, server: 45.32.94.150, port: 443, type: vmess, uuid: 5974cc5f-7869-4c54-835d-6726fc552e34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _US_美国, server: 38.68.134.23, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Atlanta-GTHost 358, server: 38.121.43.154, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2022.01.31） 2, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CYL-科技（2022.01.31） 3, server: 105.wgong.xyz, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _英国_YouTube:VV科技_31, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CYL-科技（2022.01.31） 4, server: 134.195.196.193, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 5, server: 192.3.145.143, port: 443, type: vmess, uuid: f2ac5a3b-575f-4888-8997-43958deda5a4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 6, server: 38.91.102.123, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: +New+York-GTHost, server: 169.197.141.244, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CYL-科技（2022.01.31） 7, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CYL-科技（2022.01.31） 8, server: 167.88.63.74, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2022.01.31） 9, server: 167.88.63.74, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 科技网络 196, server: 167.88.63.61, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _加拿大_YouTube:VV科技_66, server: 134.195.196.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Atlanta-GTHost 287, server: 167.88.63.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 中国【YouTube由零開始】, server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 10, server: 134.195.196.193, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CYL-科技（2021.01.02）, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: CYL-科技（2022.01.31） 11, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CYL-科技（2022.01.31） 12, server: 161.117.89.42, port: 443, type: vmess, uuid: 0a4c6fff-51df-45fb-85af-b64bd3819064, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: CYL-科技（2022.01.31） 13, server: 134.195.196.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 2, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_30, server: t4.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 14, server: 198.57.27.241, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 3, server: 167.88.63.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CYL-科技（2022.01.31） 15, server: 167.88.62.34, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_562, server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Frankfurt-Linode 251, server: 172.105.244.165, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 科技网络 49, server: 134.195.196.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: GB_603 |61.29Mb, server: 212.38.189.174, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_498, server: 183.232.56.161, port: 1301, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: GB_501, server: 212.38.189.174, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CYL-科技（2022.01.31） 16, server: 37.120.136.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b, udp: true}
+  - {name: 科技网络 261, server: 167.88.63.61, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CYL-科技（2022.01.31） 17, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 18, server: 38.68.134.23, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 科技网络 36, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CYL-科技（2022.01.31） 19, server: 45.79.123.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_89, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 4, server: 108.61.195.29, port: 443, type: vmess, uuid: fd4641d9-34c0-4ea7-b2d7-19f9d8035c75, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 中国【YouTube由零開始】 2, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 科技网络 144, server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 20, server: 45.79.123.175, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 科技网络 30, server: t3.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: 科技网络 387, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022.01.31） 18, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 19, server: 167.88.62.34, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _FR_法国, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: _US_美国 5, server: 38.75.137.66, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 6, server: 169.197.142.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 3, server: 198.57.27.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: +Miami-GTHost, server: 38.91.107.22, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 香港环电-优化2 2, server: cm.cnhost.top, port: 16622, type: vmess, uuid: d05cf559-9612-4ae8-9919-8b71c34c3263, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.cnhost.top}, udp: true}
+  - {name: CYL-科技（2022.01.31） 21, server: buyvm.lu.tgproxy.wtf, port: 2052, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: buyvm.lu.tgproxy.wtf}, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Frankfurt-Linode 35, server: 172.105.244.165, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Frankfurt-Linode 8, server: 172.105.244.165, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Dallas-GTHost 595, server: 38.68.134.191, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CYL-科技（2022.01.31） 22, server: 169.197.141.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 23, server: 169.197.141.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 科技网络 309, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: GB_510 | 7.64Mb, server: 212.38.189.174, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 日本 | 101 | LIN | 1x, server: jp01.linkzones.xyz, port: 443, type: vmess, uuid: 59762fbc-ecfc-30a8-b40e-05b1fb8bdeb1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: jp01.linknodes.xyz}, udp: true}
+  - {name: Ytb:鹏哥分享_美国_55, server: 167.88.62.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _中国_YouTube:VV科技_35, server: cslt.sf66.cf, port: 34716, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cslt.sf66.cf}, udp: true}
+  - {name: CYL-科技（2022.01.31） 24, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _GB_英国, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_488, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Atlanta-GTHost 640, server: 167.88.63.28, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: +Tokyo-Linode, server: 139.162.116.154, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Frankfurt-GTHost 99, server: 193.108.118.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CYL-科技（2022.01.31） 25, server: mf-az-yd-02.xncloud.xyz, port: 80, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-az-yd-02.xncloud.xyz}, udp: true}
+  - {name: 科技网络 143, server: 46.29.219.246, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 26, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: +Miami-GTHost 2, server: 38.91.107.22, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 科技网络 31, server: 198.57.27.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 科技网络 278, server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 香港 | 100 | NNT | 1x, server: hk00.linkzones.xyz, port: 443, type: vmess, uuid: 59762fbc-ecfc-30a8-b40e-05b1fb8bdeb1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: hk00.linknodes.xyz}, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 11, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: +Paris-Online, server: 62.210.209.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_102, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CYL-科技（2022.01.31） 27, server: 109.wgong.xyz, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _AU_澳大利亚, server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: Ze9baeS5.com}, udp: true}
+  - {name: TW_1135 |18.40Mb, server: tw1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: tw1-1.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 134.195.196.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 28, server: 169.197.141.91, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: wxgzh:zimuheikeji 17, server: 158.247.203.168, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 7, server: 142.202.48.77, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Dallas-GTHost 310, server: 38.68.134.191, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: +Miami-GTHost 3, server: 38.91.107.22, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 科技网络 323, server: 198.57.27.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: +Miami-GTHost 4, server: 38.91.107.22, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 科技网络 365, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: （晓猛社区）_119, server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Ytb:鹏哥分享_美国_2, server: 38.68.134.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
-      - 负载均衡
       - ♻️ 自动选择
+      - ♻️ 负载均衡
       - 🎯 全球直连
+      - Ytb:鹏哥分享_加拿大_43
+      - 科技网络 38
       - CYL-科技（2022.01.31）
-      - 26美国∞中转
-      - 14台湾∞直连
-      - 科技网络 220
-      - Relay_🇯🇵JP-🇬🇧GB_649 | 2.91Mb
+      - _US_美国
+      - Atlanta-GTHost 358
       - CYL-科技（2022.01.31） 2
-      - 27美国∞中转
       - CYL-科技（2022.01.31） 3
-      - 60美国∞直连
-      - 64香港∞直连
-      - 中国【YouTube由零開始】
-      - CN_430+|10.06Mb
-      - CN_476+|+8.30Mb
+      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - 52美国∞直连
+      - _CA_加拿大
       - CYL-科技（2022.01.31） 6
-      - GB_469 |12.20Mb
-      - GB_1077 |10.01Mb
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - Relay_🇨🇦CA-🇨🇦CA_30
-      - Dallas-GTHost 158
-      - _美国_YouTube:VV科技_74
+      - +New+York-GTHost
       - CYL-科技（2022.01.31） 7
-      - _FR_法国
-      - GB_588 |54.09Mb
-      - US-38.68.135.112-503
+      - _CA_加拿大 2
       - CYL-科技（2022.01.31） 8
-      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 9
-      - GB_529
-      - _US_美国
-      - Youtube小露分享
-      - CYL-科技（2022.01.31） 10
-      - CYL-科技（2022.01.31） 11
-      - 台湾 |Pro|02|IEPL
-      - 科技网络 82
-      - CYL-科技（2022.01.31） 12
-      - Atlanta-GTHost 440
-      - CYL-科技（2022.01.31） 13
-      - GB_1067 | 8.25Mb
-      - 科技网络 137
-      - 美国阿伟科技-新年快乐
-      - CYL-科技（2022.01.31） 14
-      - 科技网络 38
-      - CYL-科技（2022.01.31） 15
-      - 科技网络 222
-      - _加拿大_YouTube:VV科技_32
-      - CYL-科技（2022.01.31） 16
-      - 科技网络 313
-      - GB_528
-      - _美国_YouTube:VV科技_51
-      - 科技网络 355
-      - CYL-科技（2022.01.31） 17
-      - 科技网络 387
-      - CYL-科技（2022.01.31） 18
-      - CYL-科技（2022.01.31） 19
-  - name: 负载均衡
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - CYL-科技（2022.01.31）
-      - 26美国∞中转
-      - 14台湾∞直连
-      - 科技网络 220
-      - Relay_🇯🇵JP-🇬🇧GB_649 | 2.91Mb
-      - CYL-科技（2022.01.31） 2
-      - 27美国∞中转
-      - CYL-科技（2022.01.31） 3
-      - 60美国∞直连
-      - 64香港∞直连
+      - 科技网络 196
+      - _加拿大_YouTube:VV科技_66
+      - Atlanta-GTHost 287
       - 中国【YouTube由零開始】
-      - CN_430+|10.06Mb
-      - CN_476+|+8.30Mb
-      - CYL-科技（2022.01.31） 4
-      - CYL-科技（2022.01.31） 5
-      - 52美国∞直连
-      - CYL-科技（2022.01.31） 6
-      - GB_469 |12.20Mb
-      - GB_1077 |10.01Mb
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - Relay_🇨🇦CA-🇨🇦CA_30
-      - Dallas-GTHost 158
-      - _美国_YouTube:VV科技_74
-      - CYL-科技（2022.01.31） 7
-      - _FR_法国
-      - GB_588 |54.09Mb
-      - US-38.68.135.112-503
-      - CYL-科技（2022.01.31） 8
-      - _英国_YouTube:VV科技_31
-      - CYL-科技（2022.01.31） 9
-      - GB_529
-      - _US_美国
-      - Youtube小露分享
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.31） 11
-      - 台湾 |Pro|02|IEPL
-      - 科技网络 82
       - CYL-科技（2022.01.31） 12
-      - Atlanta-GTHost 440
       - CYL-科技（2022.01.31） 13
-      - GB_1067 | 8.25Mb
-      - 科技网络 137
-      - 美国阿伟科技-新年快乐
+      - _US_美国 2
+      - Relay_🇨🇦CA-🇨🇦CA_30
       - CYL-科技（2022.01.31） 14
-      - 科技网络 38
+      - _US_美国 3
       - CYL-科技（2022.01.31） 15
-      - 科技网络 222
-      - _加拿大_YouTube:VV科技_32
+      - ♥️♥️YouTube梦歌♥️♥️_562
+      - Frankfurt-Linode 251
+      - 科技网络 49
+      - GB_603 |61.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_498
+      - GB_501
       - CYL-科技（2022.01.31） 16
-      - 科技网络 313
-      - GB_528
-      - _美国_YouTube:VV科技_51
-      - 科技网络 355
+      - 科技网络 261
       - CYL-科技（2022.01.31） 17
-      - 科技网络 387
       - CYL-科技（2022.01.31） 18
+      - 科技网络 36
       - CYL-科技（2022.01.31） 19
+      - Ytb:鹏哥分享_加拿大_89
+      - _US_美国 4
+      - 中国【YouTube由零開始】 2
+      - 科技网络 144
+      - CYL-科技（2022.01.31） 20
+      - 科技网络 30
+      - 科技网络 387
+      - _FR_法国
+      - _US_美国 5
+      - _US_美国 6
+      - _CA_加拿大 3
+      - +Miami-GTHost
+      - 香港环电-优化2 2
+      - CYL-科技（2022.01.31） 21
+      - _CA_加拿大 4
+      - Frankfurt-Linode 35
+      - Frankfurt-Linode 8
+      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 科技网络 309
+      - GB_510 | 7.64Mb
+      - 日本 | 101 | LIN | 1x
+      - Ytb:鹏哥分享_美国_55
+      - _中国_YouTube:VV科技_35
+      - CYL-科技（2022.01.31） 24
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - Atlanta-GTHost 640
+      - +Tokyo-Linode
+      - Frankfurt-GTHost 99
+      - CYL-科技（2022.01.31） 25
+      - 科技网络 143
+      - CYL-科技（2022.01.31） 26
+      - +Miami-GTHost 2
+      - 科技网络 31
+      - 科技网络 278
+      - 香港 | 100 | NNT | 1x
+      - github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - +Paris-Online
+      - Ytb:鹏哥分享_加拿大_102
+      - CYL-科技（2022.01.31） 27
+      - _AU_澳大利亚
+      - TW_1135 |18.40Mb
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2022.01.31） 28
+      - wxgzh:zimuheikeji 17
+      - _US_美国 7
+      - Dallas-GTHost 310
+      - +Miami-GTHost 3
+      - 科技网络 323
+      - +Miami-GTHost 4
+      - 科技网络 365
+      - （晓猛社区）_119
+      - Ytb:鹏哥分享_美国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Ytb:鹏哥分享_加拿大_43
+      - 科技网络 38
       - CYL-科技（2022.01.31）
-      - 26美国∞中转
-      - 14台湾∞直连
-      - 科技网络 220
-      - Relay_🇯🇵JP-🇬🇧GB_649 | 2.91Mb
+      - _US_美国
+      - Atlanta-GTHost 358
       - CYL-科技（2022.01.31） 2
-      - 27美国∞中转
       - CYL-科技（2022.01.31） 3
-      - 60美国∞直连
-      - 64香港∞直连
-      - 中国【YouTube由零開始】
-      - CN_430+|10.06Mb
-      - CN_476+|+8.30Mb
+      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - 52美国∞直连
+      - _CA_加拿大
       - CYL-科技（2022.01.31） 6
-      - GB_469 |12.20Mb
-      - GB_1077 |10.01Mb
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - Relay_🇨🇦CA-🇨🇦CA_30
-      - Dallas-GTHost 158
-      - _美国_YouTube:VV科技_74
+      - +New+York-GTHost
       - CYL-科技（2022.01.31） 7
-      - _FR_法国
-      - GB_588 |54.09Mb
-      - US-38.68.135.112-503
+      - _CA_加拿大 2
       - CYL-科技（2022.01.31） 8
-      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 9
-      - GB_529
-      - _US_美国
-      - Youtube小露分享
+      - 科技网络 196
+      - _加拿大_YouTube:VV科技_66
+      - Atlanta-GTHost 287
+      - 中国【YouTube由零開始】
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.31） 11
-      - 台湾 |Pro|02|IEPL
-      - 科技网络 82
       - CYL-科技（2022.01.31） 12
-      - Atlanta-GTHost 440
       - CYL-科技（2022.01.31） 13
-      - GB_1067 | 8.25Mb
-      - 科技网络 137
-      - 美国阿伟科技-新年快乐
+      - _US_美国 2
+      - Relay_🇨🇦CA-🇨🇦CA_30
       - CYL-科技（2022.01.31） 14
-      - 科技网络 38
+      - _US_美国 3
       - CYL-科技（2022.01.31） 15
-      - 科技网络 222
-      - _加拿大_YouTube:VV科技_32
+      - ♥️♥️YouTube梦歌♥️♥️_562
+      - Frankfurt-Linode 251
+      - 科技网络 49
+      - GB_603 |61.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_498
+      - GB_501
       - CYL-科技（2022.01.31） 16
-      - 科技网络 313
-      - GB_528
-      - _美国_YouTube:VV科技_51
-      - 科技网络 355
+      - 科技网络 261
       - CYL-科技（2022.01.31） 17
-      - 科技网络 387
       - CYL-科技（2022.01.31） 18
+      - 科技网络 36
       - CYL-科技（2022.01.31） 19
+      - Ytb:鹏哥分享_加拿大_89
+      - _US_美国 4
+      - 中国【YouTube由零開始】 2
+      - 科技网络 144
+      - CYL-科技（2022.01.31） 20
+      - 科技网络 30
+      - 科技网络 387
+      - _FR_法国
+      - _US_美国 5
+      - _US_美国 6
+      - _CA_加拿大 3
+      - +Miami-GTHost
+      - 香港环电-优化2 2
+      - CYL-科技（2022.01.31） 21
+      - _CA_加拿大 4
+      - Frankfurt-Linode 35
+      - Frankfurt-Linode 8
+      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 科技网络 309
+      - GB_510 | 7.64Mb
+      - 日本 | 101 | LIN | 1x
+      - Ytb:鹏哥分享_美国_55
+      - _中国_YouTube:VV科技_35
+      - CYL-科技（2022.01.31） 24
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - Atlanta-GTHost 640
+      - +Tokyo-Linode
+      - Frankfurt-GTHost 99
+      - CYL-科技（2022.01.31） 25
+      - 科技网络 143
+      - CYL-科技（2022.01.31） 26
+      - +Miami-GTHost 2
+      - 科技网络 31
+      - 科技网络 278
+      - 香港 | 100 | NNT | 1x
+      - github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - +Paris-Online
+      - Ytb:鹏哥分享_加拿大_102
+      - CYL-科技（2022.01.31） 27
+      - _AU_澳大利亚
+      - TW_1135 |18.40Mb
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2022.01.31） 28
+      - wxgzh:zimuheikeji 17
+      - _US_美国 7
+      - Dallas-GTHost 310
+      - +Miami-GTHost 3
+      - 科技网络 323
+      - +Miami-GTHost 4
+      - 科技网络 365
+      - （晓猛社区）_119
+      - Ytb:鹏哥分享_美国_2
+  - name: ♻️ 负载均衡
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - Ytb:鹏哥分享_加拿大_43
+      - 科技网络 38
+      - CYL-科技（2022.01.31）
+      - _US_美国
+      - Atlanta-GTHost 358
+      - CYL-科技（2022.01.31） 2
+      - CYL-科技（2022.01.31） 3
+      - _英国_YouTube:VV科技_31
+      - CYL-科技（2022.01.31） 4
+      - CYL-科技（2022.01.31） 5
+      - _CA_加拿大
+      - CYL-科技（2022.01.31） 6
+      - +New+York-GTHost
+      - CYL-科技（2022.01.31） 7
+      - _CA_加拿大 2
+      - CYL-科技（2022.01.31） 8
+      - CYL-科技（2022.01.31） 9
+      - 科技网络 196
+      - _加拿大_YouTube:VV科技_66
+      - Atlanta-GTHost 287
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.31） 10
+      - CYL-科技（2021.01.02）
+      - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 12
+      - CYL-科技（2022.01.31） 13
+      - _US_美国 2
+      - Relay_🇨🇦CA-🇨🇦CA_30
+      - CYL-科技（2022.01.31） 14
+      - _US_美国 3
+      - CYL-科技（2022.01.31） 15
+      - ♥️♥️YouTube梦歌♥️♥️_562
+      - Frankfurt-Linode 251
+      - 科技网络 49
+      - GB_603 |61.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_498
+      - GB_501
+      - CYL-科技（2022.01.31） 16
+      - 科技网络 261
+      - CYL-科技（2022.01.31） 17
+      - CYL-科技（2022.01.31） 18
+      - 科技网络 36
+      - CYL-科技（2022.01.31） 19
+      - Ytb:鹏哥分享_加拿大_89
+      - _US_美国 4
+      - 中国【YouTube由零開始】 2
+      - 科技网络 144
+      - CYL-科技（2022.01.31） 20
+      - 科技网络 30
+      - 科技网络 387
+      - _FR_法国
+      - _US_美国 5
+      - _US_美国 6
+      - _CA_加拿大 3
+      - +Miami-GTHost
+      - 香港环电-优化2 2
+      - CYL-科技（2022.01.31） 21
+      - _CA_加拿大 4
+      - Frankfurt-Linode 35
+      - Frankfurt-Linode 8
+      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 科技网络 309
+      - GB_510 | 7.64Mb
+      - 日本 | 101 | LIN | 1x
+      - Ytb:鹏哥分享_美国_55
+      - _中国_YouTube:VV科技_35
+      - CYL-科技（2022.01.31） 24
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - Atlanta-GTHost 640
+      - +Tokyo-Linode
+      - Frankfurt-GTHost 99
+      - CYL-科技（2022.01.31） 25
+      - 科技网络 143
+      - CYL-科技（2022.01.31） 26
+      - +Miami-GTHost 2
+      - 科技网络 31
+      - 科技网络 278
+      - 香港 | 100 | NNT | 1x
+      - github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - +Paris-Online
+      - Ytb:鹏哥分享_加拿大_102
+      - CYL-科技（2022.01.31） 27
+      - _AU_澳大利亚
+      - TW_1135 |18.40Mb
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2022.01.31） 28
+      - wxgzh:zimuheikeji 17
+      - _US_美国 7
+      - Dallas-GTHost 310
+      - +Miami-GTHost 3
+      - 科技网络 323
+      - +Miami-GTHost 4
+      - 科技网络 365
+      - （晓猛社区）_119
+      - Ytb:鹏哥分享_美国_2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Ytb:鹏哥分享_加拿大_43
+      - 科技网络 38
       - CYL-科技（2022.01.31）
-      - 26美国∞中转
-      - 14台湾∞直连
-      - 科技网络 220
-      - Relay_🇯🇵JP-🇬🇧GB_649 | 2.91Mb
+      - _US_美国
+      - Atlanta-GTHost 358
       - CYL-科技（2022.01.31） 2
-      - 27美国∞中转
       - CYL-科技（2022.01.31） 3
-      - 60美国∞直连
-      - 64香港∞直连
-      - 中国【YouTube由零開始】
-      - CN_430+|10.06Mb
-      - CN_476+|+8.30Mb
+      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - 52美国∞直连
+      - _CA_加拿大
       - CYL-科技（2022.01.31） 6
-      - GB_469 |12.20Mb
-      - GB_1077 |10.01Mb
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - Relay_🇨🇦CA-🇨🇦CA_30
-      - Dallas-GTHost 158
-      - _美国_YouTube:VV科技_74
+      - +New+York-GTHost
       - CYL-科技（2022.01.31） 7
-      - _FR_法国
-      - GB_588 |54.09Mb
-      - US-38.68.135.112-503
+      - _CA_加拿大 2
       - CYL-科技（2022.01.31） 8
-      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 9
-      - GB_529
-      - _US_美国
-      - Youtube小露分享
+      - 科技网络 196
+      - _加拿大_YouTube:VV科技_66
+      - Atlanta-GTHost 287
+      - 中国【YouTube由零開始】
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.31） 11
-      - 台湾 |Pro|02|IEPL
-      - 科技网络 82
       - CYL-科技（2022.01.31） 12
-      - Atlanta-GTHost 440
       - CYL-科技（2022.01.31） 13
-      - GB_1067 | 8.25Mb
-      - 科技网络 137
-      - 美国阿伟科技-新年快乐
+      - _US_美国 2
+      - Relay_🇨🇦CA-🇨🇦CA_30
       - CYL-科技（2022.01.31） 14
-      - 科技网络 38
+      - _US_美国 3
       - CYL-科技（2022.01.31） 15
-      - 科技网络 222
-      - _加拿大_YouTube:VV科技_32
+      - ♥️♥️YouTube梦歌♥️♥️_562
+      - Frankfurt-Linode 251
+      - 科技网络 49
+      - GB_603 |61.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_498
+      - GB_501
       - CYL-科技（2022.01.31） 16
-      - 科技网络 313
-      - GB_528
-      - _美国_YouTube:VV科技_51
-      - 科技网络 355
+      - 科技网络 261
       - CYL-科技（2022.01.31） 17
-      - 科技网络 387
       - CYL-科技（2022.01.31） 18
+      - 科技网络 36
       - CYL-科技（2022.01.31） 19
+      - Ytb:鹏哥分享_加拿大_89
+      - _US_美国 4
+      - 中国【YouTube由零開始】 2
+      - 科技网络 144
+      - CYL-科技（2022.01.31） 20
+      - 科技网络 30
+      - 科技网络 387
+      - _FR_法国
+      - _US_美国 5
+      - _US_美国 6
+      - _CA_加拿大 3
+      - +Miami-GTHost
+      - 香港环电-优化2 2
+      - CYL-科技（2022.01.31） 21
+      - _CA_加拿大 4
+      - Frankfurt-Linode 35
+      - Frankfurt-Linode 8
+      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 科技网络 309
+      - GB_510 | 7.64Mb
+      - 日本 | 101 | LIN | 1x
+      - Ytb:鹏哥分享_美国_55
+      - _中国_YouTube:VV科技_35
+      - CYL-科技（2022.01.31） 24
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - Atlanta-GTHost 640
+      - +Tokyo-Linode
+      - Frankfurt-GTHost 99
+      - CYL-科技（2022.01.31） 25
+      - 科技网络 143
+      - CYL-科技（2022.01.31） 26
+      - +Miami-GTHost 2
+      - 科技网络 31
+      - 科技网络 278
+      - 香港 | 100 | NNT | 1x
+      - github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - +Paris-Online
+      - Ytb:鹏哥分享_加拿大_102
+      - CYL-科技（2022.01.31） 27
+      - _AU_澳大利亚
+      - TW_1135 |18.40Mb
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2022.01.31） 28
+      - wxgzh:zimuheikeji 17
+      - _US_美国 7
+      - Dallas-GTHost 310
+      - +Miami-GTHost 3
+      - 科技网络 323
+      - +Miami-GTHost 4
+      - 科技网络 365
+      - （晓猛社区）_119
+      - Ytb:鹏哥分享_美国_2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -332,258 +537,421 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Ytb:鹏哥分享_加拿大_43
+      - 科技网络 38
       - CYL-科技（2022.01.31）
-      - 26美国∞中转
-      - 14台湾∞直连
-      - 科技网络 220
-      - Relay_🇯🇵JP-🇬🇧GB_649 | 2.91Mb
+      - _US_美国
+      - Atlanta-GTHost 358
       - CYL-科技（2022.01.31） 2
-      - 27美国∞中转
       - CYL-科技（2022.01.31） 3
-      - 60美国∞直连
-      - 64香港∞直连
-      - 中国【YouTube由零開始】
-      - CN_430+|10.06Mb
-      - CN_476+|+8.30Mb
+      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - 52美国∞直连
+      - _CA_加拿大
       - CYL-科技（2022.01.31） 6
-      - GB_469 |12.20Mb
-      - GB_1077 |10.01Mb
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - Relay_🇨🇦CA-🇨🇦CA_30
-      - Dallas-GTHost 158
-      - _美国_YouTube:VV科技_74
+      - +New+York-GTHost
       - CYL-科技（2022.01.31） 7
-      - _FR_法国
-      - GB_588 |54.09Mb
-      - US-38.68.135.112-503
+      - _CA_加拿大 2
       - CYL-科技（2022.01.31） 8
-      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 9
-      - GB_529
-      - _US_美国
-      - Youtube小露分享
+      - 科技网络 196
+      - _加拿大_YouTube:VV科技_66
+      - Atlanta-GTHost 287
+      - 中国【YouTube由零開始】
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.31） 11
-      - 台湾 |Pro|02|IEPL
-      - 科技网络 82
       - CYL-科技（2022.01.31） 12
-      - Atlanta-GTHost 440
       - CYL-科技（2022.01.31） 13
-      - GB_1067 | 8.25Mb
-      - 科技网络 137
-      - 美国阿伟科技-新年快乐
+      - _US_美国 2
+      - Relay_🇨🇦CA-🇨🇦CA_30
       - CYL-科技（2022.01.31） 14
-      - 科技网络 38
+      - _US_美国 3
       - CYL-科技（2022.01.31） 15
-      - 科技网络 222
-      - _加拿大_YouTube:VV科技_32
+      - ♥️♥️YouTube梦歌♥️♥️_562
+      - Frankfurt-Linode 251
+      - 科技网络 49
+      - GB_603 |61.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_498
+      - GB_501
       - CYL-科技（2022.01.31） 16
-      - 科技网络 313
-      - GB_528
-      - _美国_YouTube:VV科技_51
-      - 科技网络 355
+      - 科技网络 261
       - CYL-科技（2022.01.31） 17
-      - 科技网络 387
       - CYL-科技（2022.01.31） 18
+      - 科技网络 36
       - CYL-科技（2022.01.31） 19
+      - Ytb:鹏哥分享_加拿大_89
+      - _US_美国 4
+      - 中国【YouTube由零開始】 2
+      - 科技网络 144
+      - CYL-科技（2022.01.31） 20
+      - 科技网络 30
+      - 科技网络 387
+      - _FR_法国
+      - _US_美国 5
+      - _US_美国 6
+      - _CA_加拿大 3
+      - +Miami-GTHost
+      - 香港环电-优化2 2
+      - CYL-科技（2022.01.31） 21
+      - _CA_加拿大 4
+      - Frankfurt-Linode 35
+      - Frankfurt-Linode 8
+      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 科技网络 309
+      - GB_510 | 7.64Mb
+      - 日本 | 101 | LIN | 1x
+      - Ytb:鹏哥分享_美国_55
+      - _中国_YouTube:VV科技_35
+      - CYL-科技（2022.01.31） 24
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - Atlanta-GTHost 640
+      - +Tokyo-Linode
+      - Frankfurt-GTHost 99
+      - CYL-科技（2022.01.31） 25
+      - 科技网络 143
+      - CYL-科技（2022.01.31） 26
+      - +Miami-GTHost 2
+      - 科技网络 31
+      - 科技网络 278
+      - 香港 | 100 | NNT | 1x
+      - github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - +Paris-Online
+      - Ytb:鹏哥分享_加拿大_102
+      - CYL-科技（2022.01.31） 27
+      - _AU_澳大利亚
+      - TW_1135 |18.40Mb
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2022.01.31） 28
+      - wxgzh:zimuheikeji 17
+      - _US_美国 7
+      - Dallas-GTHost 310
+      - +Miami-GTHost 3
+      - 科技网络 323
+      - +Miami-GTHost 4
+      - 科技网络 365
+      - （晓猛社区）_119
+      - Ytb:鹏哥分享_美国_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 14台湾∞直连
-      - 64香港∞直连
-      - 台湾 |Pro|02|IEPL
+      - 香港环电-优化2 2
+      - 香港 | 100 | NNT | 1x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Ytb:鹏哥分享_加拿大_43
+      - 科技网络 38
       - CYL-科技（2022.01.31）
-      - 26美国∞中转
-      - 14台湾∞直连
-      - 科技网络 220
-      - Relay_🇯🇵JP-🇬🇧GB_649 | 2.91Mb
+      - _US_美国
+      - Atlanta-GTHost 358
       - CYL-科技（2022.01.31） 2
-      - 27美国∞中转
       - CYL-科技（2022.01.31） 3
-      - 60美国∞直连
-      - 64香港∞直连
-      - 中国【YouTube由零開始】
-      - CN_430+|10.06Mb
-      - CN_476+|+8.30Mb
+      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - 52美国∞直连
+      - _CA_加拿大
       - CYL-科技（2022.01.31） 6
-      - GB_469 |12.20Mb
-      - GB_1077 |10.01Mb
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - Relay_🇨🇦CA-🇨🇦CA_30
-      - Dallas-GTHost 158
-      - _美国_YouTube:VV科技_74
+      - +New+York-GTHost
       - CYL-科技（2022.01.31） 7
-      - _FR_法国
-      - GB_588 |54.09Mb
-      - US-38.68.135.112-503
+      - _CA_加拿大 2
       - CYL-科技（2022.01.31） 8
-      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 9
-      - GB_529
-      - _US_美国
-      - Youtube小露分享
+      - 科技网络 196
+      - _加拿大_YouTube:VV科技_66
+      - Atlanta-GTHost 287
+      - 中国【YouTube由零開始】
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.31） 11
-      - 台湾 |Pro|02|IEPL
-      - 科技网络 82
       - CYL-科技（2022.01.31） 12
-      - Atlanta-GTHost 440
       - CYL-科技（2022.01.31） 13
-      - GB_1067 | 8.25Mb
-      - 科技网络 137
-      - 美国阿伟科技-新年快乐
+      - _US_美国 2
+      - Relay_🇨🇦CA-🇨🇦CA_30
       - CYL-科技（2022.01.31） 14
-      - 科技网络 38
+      - _US_美国 3
       - CYL-科技（2022.01.31） 15
-      - 科技网络 222
-      - _加拿大_YouTube:VV科技_32
+      - ♥️♥️YouTube梦歌♥️♥️_562
+      - Frankfurt-Linode 251
+      - 科技网络 49
+      - GB_603 |61.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_498
+      - GB_501
       - CYL-科技（2022.01.31） 16
-      - 科技网络 313
-      - GB_528
-      - _美国_YouTube:VV科技_51
-      - 科技网络 355
+      - 科技网络 261
       - CYL-科技（2022.01.31） 17
-      - 科技网络 387
       - CYL-科技（2022.01.31） 18
+      - 科技网络 36
       - CYL-科技（2022.01.31） 19
+      - Ytb:鹏哥分享_加拿大_89
+      - _US_美国 4
+      - 中国【YouTube由零開始】 2
+      - 科技网络 144
+      - CYL-科技（2022.01.31） 20
+      - 科技网络 30
+      - 科技网络 387
+      - _FR_法国
+      - _US_美国 5
+      - _US_美国 6
+      - _CA_加拿大 3
+      - +Miami-GTHost
+      - 香港环电-优化2 2
+      - CYL-科技（2022.01.31） 21
+      - _CA_加拿大 4
+      - Frankfurt-Linode 35
+      - Frankfurt-Linode 8
+      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 科技网络 309
+      - GB_510 | 7.64Mb
+      - 日本 | 101 | LIN | 1x
+      - Ytb:鹏哥分享_美国_55
+      - _中国_YouTube:VV科技_35
+      - CYL-科技（2022.01.31） 24
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - Atlanta-GTHost 640
+      - +Tokyo-Linode
+      - Frankfurt-GTHost 99
+      - CYL-科技（2022.01.31） 25
+      - 科技网络 143
+      - CYL-科技（2022.01.31） 26
+      - +Miami-GTHost 2
+      - 科技网络 31
+      - 科技网络 278
+      - 香港 | 100 | NNT | 1x
+      - github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - +Paris-Online
+      - Ytb:鹏哥分享_加拿大_102
+      - CYL-科技（2022.01.31） 27
+      - _AU_澳大利亚
+      - TW_1135 |18.40Mb
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2022.01.31） 28
+      - wxgzh:zimuheikeji 17
+      - _US_美国 7
+      - Dallas-GTHost 310
+      - +Miami-GTHost 3
+      - 科技网络 323
+      - +Miami-GTHost 4
+      - 科技网络 365
+      - （晓猛社区）_119
+      - Ytb:鹏哥分享_美国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Ytb:鹏哥分享_加拿大_43
+      - 科技网络 38
       - CYL-科技（2022.01.31）
-      - 26美国∞中转
-      - 14台湾∞直连
-      - 科技网络 220
-      - Relay_🇯🇵JP-🇬🇧GB_649 | 2.91Mb
+      - _US_美国
+      - Atlanta-GTHost 358
       - CYL-科技（2022.01.31） 2
-      - 27美国∞中转
       - CYL-科技（2022.01.31） 3
-      - 60美国∞直连
-      - 64香港∞直连
-      - 中国【YouTube由零開始】
-      - CN_430+|10.06Mb
-      - CN_476+|+8.30Mb
+      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - 52美国∞直连
+      - _CA_加拿大
       - CYL-科技（2022.01.31） 6
-      - GB_469 |12.20Mb
-      - GB_1077 |10.01Mb
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - Relay_🇨🇦CA-🇨🇦CA_30
-      - Dallas-GTHost 158
-      - _美国_YouTube:VV科技_74
+      - +New+York-GTHost
       - CYL-科技（2022.01.31） 7
-      - _FR_法国
-      - GB_588 |54.09Mb
-      - US-38.68.135.112-503
+      - _CA_加拿大 2
       - CYL-科技（2022.01.31） 8
-      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 9
-      - GB_529
-      - _US_美国
-      - Youtube小露分享
+      - 科技网络 196
+      - _加拿大_YouTube:VV科技_66
+      - Atlanta-GTHost 287
+      - 中国【YouTube由零開始】
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.31） 11
-      - 台湾 |Pro|02|IEPL
-      - 科技网络 82
       - CYL-科技（2022.01.31） 12
-      - Atlanta-GTHost 440
       - CYL-科技（2022.01.31） 13
-      - GB_1067 | 8.25Mb
-      - 科技网络 137
-      - 美国阿伟科技-新年快乐
+      - _US_美国 2
+      - Relay_🇨🇦CA-🇨🇦CA_30
       - CYL-科技（2022.01.31） 14
-      - 科技网络 38
+      - _US_美国 3
       - CYL-科技（2022.01.31） 15
-      - 科技网络 222
-      - _加拿大_YouTube:VV科技_32
+      - ♥️♥️YouTube梦歌♥️♥️_562
+      - Frankfurt-Linode 251
+      - 科技网络 49
+      - GB_603 |61.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_498
+      - GB_501
       - CYL-科技（2022.01.31） 16
-      - 科技网络 313
-      - GB_528
-      - _美国_YouTube:VV科技_51
-      - 科技网络 355
+      - 科技网络 261
       - CYL-科技（2022.01.31） 17
-      - 科技网络 387
       - CYL-科技（2022.01.31） 18
+      - 科技网络 36
       - CYL-科技（2022.01.31） 19
+      - Ytb:鹏哥分享_加拿大_89
+      - _US_美国 4
+      - 中国【YouTube由零開始】 2
+      - 科技网络 144
+      - CYL-科技（2022.01.31） 20
+      - 科技网络 30
+      - 科技网络 387
+      - _FR_法国
+      - _US_美国 5
+      - _US_美国 6
+      - _CA_加拿大 3
+      - +Miami-GTHost
+      - 香港环电-优化2 2
+      - CYL-科技（2022.01.31） 21
+      - _CA_加拿大 4
+      - Frankfurt-Linode 35
+      - Frankfurt-Linode 8
+      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 科技网络 309
+      - GB_510 | 7.64Mb
+      - 日本 | 101 | LIN | 1x
+      - Ytb:鹏哥分享_美国_55
+      - _中国_YouTube:VV科技_35
+      - CYL-科技（2022.01.31） 24
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - Atlanta-GTHost 640
+      - +Tokyo-Linode
+      - Frankfurt-GTHost 99
+      - CYL-科技（2022.01.31） 25
+      - 科技网络 143
+      - CYL-科技（2022.01.31） 26
+      - +Miami-GTHost 2
+      - 科技网络 31
+      - 科技网络 278
+      - 香港 | 100 | NNT | 1x
+      - github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - +Paris-Online
+      - Ytb:鹏哥分享_加拿大_102
+      - CYL-科技（2022.01.31） 27
+      - _AU_澳大利亚
+      - TW_1135 |18.40Mb
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2022.01.31） 28
+      - wxgzh:zimuheikeji 17
+      - _US_美国 7
+      - Dallas-GTHost 310
+      - +Miami-GTHost 3
+      - 科技网络 323
+      - +Miami-GTHost 4
+      - 科技网络 365
+      - （晓猛社区）_119
+      - Ytb:鹏哥分享_美国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Ytb:鹏哥分享_加拿大_43
+      - 科技网络 38
       - CYL-科技（2022.01.31）
-      - 26美国∞中转
-      - 14台湾∞直连
-      - 科技网络 220
-      - Relay_🇯🇵JP-🇬🇧GB_649 | 2.91Mb
+      - _US_美国
+      - Atlanta-GTHost 358
       - CYL-科技（2022.01.31） 2
-      - 27美国∞中转
       - CYL-科技（2022.01.31） 3
-      - 60美国∞直连
-      - 64香港∞直连
-      - 中国【YouTube由零開始】
-      - CN_430+|10.06Mb
-      - CN_476+|+8.30Mb
+      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - 52美国∞直连
+      - _CA_加拿大
       - CYL-科技（2022.01.31） 6
-      - GB_469 |12.20Mb
-      - GB_1077 |10.01Mb
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - Relay_🇨🇦CA-🇨🇦CA_30
-      - Dallas-GTHost 158
-      - _美国_YouTube:VV科技_74
+      - +New+York-GTHost
       - CYL-科技（2022.01.31） 7
-      - _FR_法国
-      - GB_588 |54.09Mb
-      - US-38.68.135.112-503
+      - _CA_加拿大 2
       - CYL-科技（2022.01.31） 8
-      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 9
-      - GB_529
-      - _US_美国
-      - Youtube小露分享
+      - 科技网络 196
+      - _加拿大_YouTube:VV科技_66
+      - Atlanta-GTHost 287
+      - 中国【YouTube由零開始】
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.31） 11
-      - 台湾 |Pro|02|IEPL
-      - 科技网络 82
       - CYL-科技（2022.01.31） 12
-      - Atlanta-GTHost 440
       - CYL-科技（2022.01.31） 13
-      - GB_1067 | 8.25Mb
-      - 科技网络 137
-      - 美国阿伟科技-新年快乐
+      - _US_美国 2
+      - Relay_🇨🇦CA-🇨🇦CA_30
       - CYL-科技（2022.01.31） 14
-      - 科技网络 38
+      - _US_美国 3
       - CYL-科技（2022.01.31） 15
-      - 科技网络 222
-      - _加拿大_YouTube:VV科技_32
+      - ♥️♥️YouTube梦歌♥️♥️_562
+      - Frankfurt-Linode 251
+      - 科技网络 49
+      - GB_603 |61.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_498
+      - GB_501
       - CYL-科技（2022.01.31） 16
-      - 科技网络 313
-      - GB_528
-      - _美国_YouTube:VV科技_51
-      - 科技网络 355
+      - 科技网络 261
       - CYL-科技（2022.01.31） 17
-      - 科技网络 387
       - CYL-科技（2022.01.31） 18
+      - 科技网络 36
       - CYL-科技（2022.01.31） 19
+      - Ytb:鹏哥分享_加拿大_89
+      - _US_美国 4
+      - 中国【YouTube由零開始】 2
+      - 科技网络 144
+      - CYL-科技（2022.01.31） 20
+      - 科技网络 30
+      - 科技网络 387
+      - _FR_法国
+      - _US_美国 5
+      - _US_美国 6
+      - _CA_加拿大 3
+      - +Miami-GTHost
+      - 香港环电-优化2 2
+      - CYL-科技（2022.01.31） 21
+      - _CA_加拿大 4
+      - Frankfurt-Linode 35
+      - Frankfurt-Linode 8
+      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 科技网络 309
+      - GB_510 | 7.64Mb
+      - 日本 | 101 | LIN | 1x
+      - Ytb:鹏哥分享_美国_55
+      - _中国_YouTube:VV科技_35
+      - CYL-科技（2022.01.31） 24
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - Atlanta-GTHost 640
+      - +Tokyo-Linode
+      - Frankfurt-GTHost 99
+      - CYL-科技（2022.01.31） 25
+      - 科技网络 143
+      - CYL-科技（2022.01.31） 26
+      - +Miami-GTHost 2
+      - 科技网络 31
+      - 科技网络 278
+      - 香港 | 100 | NNT | 1x
+      - github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - +Paris-Online
+      - Ytb:鹏哥分享_加拿大_102
+      - CYL-科技（2022.01.31） 27
+      - _AU_澳大利亚
+      - TW_1135 |18.40Mb
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2022.01.31） 28
+      - wxgzh:zimuheikeji 17
+      - _US_美国 7
+      - Dallas-GTHost 310
+      - +Miami-GTHost 3
+      - 科技网络 323
+      - +Miami-GTHost 4
+      - 科技网络 365
+      - （晓猛社区）_119
+      - Ytb:鹏哥分享_美国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -599,63 +967,104 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Ytb:鹏哥分享_加拿大_43
+      - 科技网络 38
       - CYL-科技（2022.01.31）
-      - 26美国∞中转
-      - 14台湾∞直连
-      - 科技网络 220
-      - Relay_🇯🇵JP-🇬🇧GB_649 | 2.91Mb
+      - _US_美国
+      - Atlanta-GTHost 358
       - CYL-科技（2022.01.31） 2
-      - 27美国∞中转
       - CYL-科技（2022.01.31） 3
-      - 60美国∞直连
-      - 64香港∞直连
-      - 中国【YouTube由零開始】
-      - CN_430+|10.06Mb
-      - CN_476+|+8.30Mb
+      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - 52美国∞直连
+      - _CA_加拿大
       - CYL-科技（2022.01.31） 6
-      - GB_469 |12.20Mb
-      - GB_1077 |10.01Mb
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - Relay_🇨🇦CA-🇨🇦CA_30
-      - Dallas-GTHost 158
-      - _美国_YouTube:VV科技_74
+      - +New+York-GTHost
       - CYL-科技（2022.01.31） 7
-      - _FR_法国
-      - GB_588 |54.09Mb
-      - US-38.68.135.112-503
+      - _CA_加拿大 2
       - CYL-科技（2022.01.31） 8
-      - _英国_YouTube:VV科技_31
       - CYL-科技（2022.01.31） 9
-      - GB_529
-      - _US_美国
-      - Youtube小露分享
+      - 科技网络 196
+      - _加拿大_YouTube:VV科技_66
+      - Atlanta-GTHost 287
+      - 中国【YouTube由零開始】
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.31） 11
-      - 台湾 |Pro|02|IEPL
-      - 科技网络 82
       - CYL-科技（2022.01.31） 12
-      - Atlanta-GTHost 440
       - CYL-科技（2022.01.31） 13
-      - GB_1067 | 8.25Mb
-      - 科技网络 137
-      - 美国阿伟科技-新年快乐
+      - _US_美国 2
+      - Relay_🇨🇦CA-🇨🇦CA_30
       - CYL-科技（2022.01.31） 14
-      - 科技网络 38
+      - _US_美国 3
       - CYL-科技（2022.01.31） 15
-      - 科技网络 222
-      - _加拿大_YouTube:VV科技_32
+      - ♥️♥️YouTube梦歌♥️♥️_562
+      - Frankfurt-Linode 251
+      - 科技网络 49
+      - GB_603 |61.29Mb
+      - ♥️♥️YouTube梦歌♥️♥️_498
+      - GB_501
       - CYL-科技（2022.01.31） 16
-      - 科技网络 313
-      - GB_528
-      - _美国_YouTube:VV科技_51
-      - 科技网络 355
+      - 科技网络 261
       - CYL-科技（2022.01.31） 17
-      - 科技网络 387
       - CYL-科技（2022.01.31） 18
+      - 科技网络 36
       - CYL-科技（2022.01.31） 19
+      - Ytb:鹏哥分享_加拿大_89
+      - _US_美国 4
+      - 中国【YouTube由零開始】 2
+      - 科技网络 144
+      - CYL-科技（2022.01.31） 20
+      - 科技网络 30
+      - 科技网络 387
+      - _FR_法国
+      - _US_美国 5
+      - _US_美国 6
+      - _CA_加拿大 3
+      - +Miami-GTHost
+      - 香港环电-优化2 2
+      - CYL-科技（2022.01.31） 21
+      - _CA_加拿大 4
+      - Frankfurt-Linode 35
+      - Frankfurt-Linode 8
+      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 科技网络 309
+      - GB_510 | 7.64Mb
+      - 日本 | 101 | LIN | 1x
+      - Ytb:鹏哥分享_美国_55
+      - _中国_YouTube:VV科技_35
+      - CYL-科技（2022.01.31） 24
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - Atlanta-GTHost 640
+      - +Tokyo-Linode
+      - Frankfurt-GTHost 99
+      - CYL-科技（2022.01.31） 25
+      - 科技网络 143
+      - CYL-科技（2022.01.31） 26
+      - +Miami-GTHost 2
+      - 科技网络 31
+      - 科技网络 278
+      - 香港 | 100 | NNT | 1x
+      - github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - +Paris-Online
+      - Ytb:鹏哥分享_加拿大_102
+      - CYL-科技（2022.01.31） 27
+      - _AU_澳大利亚
+      - TW_1135 |18.40Mb
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2022.01.31） 28
+      - wxgzh:zimuheikeji 17
+      - _US_美国 7
+      - Dallas-GTHost 310
+      - +Miami-GTHost 3
+      - 科技网络 323
+      - +Miami-GTHost 4
+      - 科技网络 365
+      - （晓猛社区）_119
+      - Ytb:鹏哥分享_美国_2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
