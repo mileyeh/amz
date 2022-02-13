@@ -5,71 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _GB_英国_高速_459, server: 172.99.190.205, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_🇹🇼TW-🇹🇼TW_1087, server: tw.main.tgproxy.wtf, port: 30002, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.main.tgproxy.wtf}, udp: true}
   - {name: 27美国∞中转, server: 117.28.243.220, port: 8254, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: US_471, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇹🇼TW_1190, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: CYL-科技（2022.01.31）, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: Earth_237, server: 134.195.198.95, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CA_176 |33.25Mb, server: 198.57.27.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2021.01.02）, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: CYL-科技（2022.01.31） 2, server: 172.99.190.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_99, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 中国_YouTube：8度科技, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: TW_1235 |11.12Mb, server: tw01.lilyco.cc, port: 59801, type: vmess, uuid: a209854a-30ed-4887-e7d2-70c7e45f814c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw01.lilyco.cc}, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_910 |22.94Mb, server: tw.main.tgproxy.wtf, port: 30002, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.main.tgproxy.wtf}, udp: true}
   - {name: CN_476+|+8.30Mb, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: US_448, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_102 |10.91Mb, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 248, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国_高速_371, server: 172.99.190.205, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: Relay_🇹🇼TW-🇹🇼TW_1086, server: tw01.lilyco.cc, port: 59801, type: vmess, uuid: a209854a-30ed-4887-e7d2-70c7e45f814c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw01.lilyco.cc}, udp: true}
-  - {name: CYL-科技（2022.01.31） 3, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 科技网络 196, server: 167.88.63.61, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022.01.31） 4, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 中国【YouTube由零開始】, server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 5, server: 38.91.102.123, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
-  - {name: _US_美国, server: 38.68.134.23, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 2, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Atlanta-GTHost 358, server: 38.121.43.154, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国_高速_460, server: 172.99.190.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _GB_英国_高速_358, server: 172.99.190.205, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022.01.31） 6, server: 167.88.63.74, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _FR_法国, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_68, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA_178 |60.49Mb, server: 198.57.27.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_300_20.57Mb, server: 120.232.41.242, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 120.232.41.242}, udp: true}
-  - {name: CYL-科技（2022.01.31） 7, server: 134.195.196.193, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_140, server: jp-group-a-direct.node001.xyz, port: 80, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp-group-a-direct.node001.xyz}, udp: true}
-  - {name: _US_美国 3, server: 167.88.63.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA_82, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_1192, server: tw.main.tgproxy.wtf, port: 30002, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.main.tgproxy.wtf}, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_113, server: tw.main.tgproxy.wtf, port: 30002, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.main.tgproxy.wtf}, udp: true}
+  - {name: 美国_YouTube：8度科技, server: 169.197.141.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 中国_YouTube：8度科技 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 美国_YouTube：8度科技 2, server: 167.88.63.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 印度_YouTube：8度科技, server: 172.104.206.165, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大_YouTube：8度科技, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_1193, server: nat.tw.tgproxy.wtf, port: 10562, type: vmess, uuid: 48e0a875-abf7-4fbf-930b-0a3ad8004cbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: nat.tw.tgproxy.wtf}, udp: true}
+  - {name: 美国_YouTube：8度科技 3, server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: test.0dc.cn}, udp: true}
+  - {name: 美国_YouTube：8度科技 4, server: 167.88.63.74, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国_YouTube：8度科技 5, server: 167.88.63.61, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_269, server: 117.28.243.220, port: 8036, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: _GB_英国_高速_411, server: 172.99.190.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_381, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_510, server: 167.88.62.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: FR_193, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Frankfurt-Linode 251, server: 172.105.244.165, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络 49, server: 134.195.196.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 科技网络 261, server: 167.88.63.61, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022.01.31） 8, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022.01.31） 9, server: 38.68.134.23, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022.01.31） 10, server: 45.79.123.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022.01.31） 11, server: 37.120.136.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b, udp: true}
-  - {name: 科技网络 30, server: t3.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 144, server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022.01.31） 12, server: 45.79.123.175, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 4, server: 108.61.195.29, port: 443, type: vmess, uuid: fd4641d9-34c0-4ea7-b2d7-19f9d8035c75, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 中国【YouTube由零開始】 2, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国_高速_73, server: 172.99.190.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 5, server: 38.75.137.66, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 6, server: 169.197.142.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 印度_YouTube：8度科技 2, server: 172.104.206.165, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_高速_459, server: 172.99.190.205, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2021.01.02）, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: US_448, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_YouTube：8度科技 6, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国_高速_358, server: 172.99.190.205, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 2, server: 109.wgong.xyz, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_YouTube：8度科技 7, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_YouTube：8度科技 8, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国_YouTube：8度科技, server: 145.239.1.100, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
+  - {name: 加拿大_YouTube：8度科技 2, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国_YouTube：8度科技, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_YouTube：8度科技 9, server: 167.88.63.28, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_YouTube：8度科技 10, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: TW_1135 |18.40Mb, server: tw1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: tw1-1.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国_YouTube：8度科技 11, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国, server: 38.68.134.23, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国_YouTube：8度科技 12, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CYL-科技（2022.01.31） 3, server: 161.117.14.39, port: 443, type: vmess, uuid: 9747de57-068d-4630-bf4a-dc7544cb0aa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_347 |12.55Mb, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
+  - {name: 加拿大_YouTube：8度科技 3, server: 198.57.27.241, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_183, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
+  - {name: _GB_英国_高速_371, server: 172.99.190.205, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大_YouTube：8度科技 4, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 中国_YouTube：8度科技 3, server: 105.wgong.xyz, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_99, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国_YouTube：8度科技 2, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大_YouTube：8度科技 5, server: 198.57.27.172, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大_YouTube：8度科技 6, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 美国_YouTube：8度科技 13, server: 167.88.62.34, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: CYL-科技（2022.01.31） 4, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_293, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_59 | 3.96Mb, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_1087, server: tw.main.tgproxy.wtf, port: 30002, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.main.tgproxy.wtf}, udp: true}
+  - {name: 加拿大_YouTube：8度科技 7, server: 198.57.27.184, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 2, server: 107.155.83.152, port: 443, type: vmess, uuid: 8f469f1b-1fd3-433b-9fd9-b4e041b9df16, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 英国_YouTube：8度科技 3, server: 51.68.205.180, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CN_430+|10.06Mb, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 英国_YouTube：8度科技 4, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_488, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 加拿大_YouTube：8度科技 8, server: 198.57.27.241, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_YouTube：8度科技 9, server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_YouTube：8度科技 14, server: 167.88.63.28, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CYL-科技（2022.01.31） 5, server: 169.197.141.91, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA_82, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_YouTube：8度科技 10, server: 198.57.27.152, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 科技网络 387, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大, server: 198.57.27.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: +Miami-GTHost, server: 38.91.107.22, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 2, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Frankfurt-Linode 35, server: 172.105.244.165, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Frankfurt-Linode 8, server: 172.105.244.165, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Dallas-GTHost 595, server: 38.68.134.191, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 美国_YouTube：8度科技 15, server: 167.88.63.28, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_299, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_310 |20.09Mb, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
+  - {name: 英国_YouTube：8度科技 5, server: 51.68.205.180, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_381, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_316, server: 117.28.243.220, port: 8036, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 加拿大_YouTube：8度科技 11, server: 198.57.27.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2022.01.31） 6, server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: CYL-科技（2022.01.31） 7, server: 146.185.218.171, port: 443, type: vmess, uuid: 947af181-c509-4245-80de-9baf64f1aa51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 中国【YouTube由零開始】, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 8, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 3, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _AU_澳大利亚, server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: Ze9baeS5.com}, udp: true}
+  - {name: 美国_YouTube：8度科技 16, server: 142.202.48.34, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CYL-科技（2022.01.31） 9, server: lv.tgproxy.wtf, port: 2052, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: lv.tgproxy.wtf}, udp: true}
+  - {name: Frankfurt-GTHost 99, server: 193.108.118.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CA_75, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CYL-科技（2022.01.31） 10, server: 169.197.141.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国_高速_339, server: 172.99.190.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _加拿大_YouTube:VV科技_33, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 科技网络 372, server: 198.57.27.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国_YouTube：8度科技 2, server: 145.239.1.100, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CYL-科技（2022.01.31） 11, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: us.lv.buyvm.tgproxy.wtf}, udp: true}
+  - {name: CYL-科技（2022.01.31） 12, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR_193, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: +Paris-Online, server: 62.210.209.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: （晓猛社区）_119, server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: +Limburg+an+der+Lahn-OVH, server: 145.239.1.137, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 13, server: 167.88.62.34, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 14, server: 169.197.141.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 科技网络 173, server: 38.75.136.93, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CYL-科技（2022.01.31） 15, server: 167.88.62.34, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大_YouTube：8度科技 12, server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 香港1•流媒•负载均衡•2x, server: azhk.node.qchwnd.moe, port: 10210, type: trojan, password: e853a12a-d706-4925-b9ad-1130935a6869, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 日本4•华东入口•1x, server: zjcm.relay.qchwnd.moe, port: 10203, type: trojan, password: e853a12a-d706-4925-b9ad-1130935a6869, sni: zjcm.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "IN #2 中转", server: 120.233.147.44, port: 45511, type: ss, cipher: chacha20-ietf-poly1305, password: 29b4d304-6482-4c51-8d20-640760a57126, udp: true}
+  - {name: 美国_YouTube：8度科技 17, server: 167.88.63.28, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_102, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _德国_YouTube:VV科技_21, server: 172.105.244.165, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 科技网络 160, server: 46.29.219.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大_YouTube：8度科技 13, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 韩国2•1.5x, server: zjcm.relay.qchwnd.moe, port: 10225, type: trojan, password: e853a12a-d706-4925-b9ad-1130935a6869, sni: zjcm.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 | 101 | AWS | 1x, server: sg01.linkzones.xyz, port: 443, type: vmess, uuid: 59762fbc-ecfc-30a8-b40e-05b1fb8bdeb1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sg01.linknodes.xyz}, udp: true}
+  - {name: CYL-科技（2022.01.31） 16, server: 196.196.20.99, port: 443, type: vmess, uuid: 38d04cda-ebba-4cf7-abac-42a5e57d0cae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: CYL-科技（2022.01.31） 17, server: 104.223.125.53, port: 443, type: vmess, uuid: 9e83b768-6db7-4537-b8f9-a9d0cb089bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: CYL-科技（2022.01.31） 18, server: 134.195.196.193, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 19, server: 45.79.123.78, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_YouTube：8度科技 14, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CYL-科技（2022.01.31） 20, server: 38.91.100.134, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 21, server: 45.79.123.175, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 22, server: 142.202.48.34, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 23, server: 38.121.43.91, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国1•流媒解锁•1x, server: zjcm.relay.qchwnd.moe, port: 10219, type: trojan, password: e853a12a-d706-4925-b9ad-1130935a6869, sni: zjcm.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 24, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
+  - {name: 台灣2•华南入口2•HiNet•流媒解锁•2x, server: gdcm2.relay.qchwnd.moe, port: 60601, type: trojan, password: e853a12a-d706-4925-b9ad-1130935a6869, sni: gdcm2.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国_高速_290, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: （晓猛社区）_101, server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 英国_YouTube：8度科技 6, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 科技网络 28, server: 38.68.134.23, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -77,283 +141,539 @@ proxy-groups:
       - ♻️ 自动选择
       - ♻️ 负载均衡
       - 🎯 全球直连
-      - _GB_英国_高速_459
-      - Relay_🇹🇼TW-🇹🇼TW_1087
       - 27美国∞中转
-      - US_471
+      - Pool_🇹🇼TW_1190
       - CYL-科技（2022.01.31）
-      - Earth_237
-      - CA_176 |33.25Mb
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.01.31） 2
-      - Ytb:鹏哥分享_加拿大_99
+      - 中国_YouTube：8度科技
+      - TW_1235 |11.12Mb
+      - Relay_🇹🇼TW-🇹🇼TW_910 |22.94Mb
       - CN_476+|+8.30Mb
-      - US_448
-      - Relay_🇪🇪EE-🇯🇵JP_102 |10.91Mb
-      - 科技网络 248
-      - _GB_英国_高速_371
       - Relay_🇹🇼TW-🇹🇼TW_1086
-      - CYL-科技（2022.01.31） 3
-      - 科技网络 196
-      - CYL-科技（2022.01.31） 4
-      - 中国【YouTube由零開始】
-      - CYL-科技（2022.01.31） 5
-      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
-      - _US_美国
-      - _US_美国 2
-      - Atlanta-GTHost 358
-      - _GB_英国_高速_460
-      - _GB_英国_高速_358
-      - CYL-科技（2022.01.31） 6
-      - _FR_法国
-      - Ytb:鹏哥分享_加拿大_68
-      - CA_178 |60.49Mb
-      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_300_20.57Mb
-      - CYL-科技（2022.01.31） 7
-      - Relay_🇯🇵JP-🇯🇵JP_140
-      - _US_美国 3
-      - CA_82
+      - Relay_🇹🇼TW-🇹🇼TW_1192
+      - Relay_🇹🇼TW-🇹🇼TW_113
+      - 美国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 2
+      - 印度_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - Relay_🇹🇼TW-🇹🇼TW_1193
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
       - Relay_🇨🇳CN-🇹🇼TW_269
-      - _GB_英国_高速_411
-      - US_381
-      - US_510
-      - FR_193
-      - Frankfurt-Linode 251
-      - 科技网络 49
-      - 科技网络 261
-      - CYL-科技（2022.01.31） 8
-      - CYL-科技（2022.01.31） 9
-      - CYL-科技（2022.01.31） 10
-      - CYL-科技（2022.01.31） 11
-      - 科技网络 30
-      - 科技网络 144
-      - CYL-科技（2022.01.31） 12
-      - _US_美国 4
-      - 中国【YouTube由零開始】 2
-      - _GB_英国_高速_73
-      - _US_美国 5
-      - _US_美国 6
+      - 印度_YouTube：8度科技 2
+      - _GB_英国_高速_459
+      - CYL-科技（2021.01.02）
+      - US_448
+      - 美国_YouTube：8度科技 6
+      - _GB_英国_高速_358
+      - CYL-科技（2022.01.31） 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 法国_YouTube：8度科技
+      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
+      - 加拿大_YouTube：8度科技 2
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 10
+      - TW_1135 |18.40Mb
+      - 美国_YouTube：8度科技 11
+      - _US_美国
+      - 美国_YouTube：8度科技 12
+      - CYL-科技（2022.01.31） 3
+      - Relay_🇨🇳CN-🇹🇼TW_347 |12.55Mb
+      - 加拿大_YouTube：8度科技 3
+      - Relay_🇨🇳CN-🇹🇼TW_183
+      - _GB_英国_高速_371
+      - 加拿大_YouTube：8度科技 4
+      - 中国_YouTube：8度科技 3
+      - Ytb:鹏哥分享_加拿大_99
+      - 英国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 13
+      - CYL-科技（2022.01.31） 4
+      - Relay_🇨🇳CN-🇹🇼TW_293
+      - Relay_🇨🇳CN-🇹🇼TW_59 | 3.96Mb
+      - Relay_🇹🇼TW-🇹🇼TW_1087
+      - 加拿大_YouTube：8度科技 7
+      - _US_美国 2
+      - 英国_YouTube：8度科技 3
+      - CN_430+|10.06Mb
+      - 英国_YouTube：8度科技 4
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 5
+      - CA_82
+      - 加拿大_YouTube：8度科技 10
       - 科技网络 387
+      - 美国_YouTube：8度科技 15
+      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - Relay_🇨🇳CN-🇹🇼TW_310 |20.09Mb
+      - 英国_YouTube：8度科技 5
+      - US_381
+      - Relay_🇨🇳CN-🇹🇼TW_316
+      - 加拿大_YouTube：8度科技 11
+      - CYL-科技（2022.01.31） 6
+      - CYL-科技（2022.01.31） 7
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.31） 8
+      - _US_美国 3
+      - _AU_澳大利亚
+      - 美国_YouTube：8度科技 16
       - _CA_加拿大
-      - +Miami-GTHost
-      - _FR_法国 2
-      - _CA_加拿大 2
-      - Frankfurt-Linode 35
-      - Frankfurt-Linode 8
-      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 9
+      - Frankfurt-GTHost 99
+      - CA_75
+      - CYL-科技（2022.01.31） 10
+      - _GB_英国_高速_339
+      - _加拿大_YouTube:VV科技_33
+      - 科技网络 372
+      - 法国_YouTube：8度科技 2
+      - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 12
+      - FR_193
+      - +Paris-Online
+      - （晓猛社区）_119
+      - +Limburg+an+der+Lahn-OVH
+      - CYL-科技（2022.01.31） 13
+      - CYL-科技（2022.01.31） 14
+      - 科技网络 173
+      - CYL-科技（2022.01.31） 15
+      - 加拿大_YouTube：8度科技 12
+      - 香港1•流媒•负载均衡•2x
+      - 日本4•华东入口•1x
+      - "IN #2 中转"
+      - 美国_YouTube：8度科技 17
+      - Ytb:鹏哥分享_加拿大_102
+      - _德国_YouTube:VV科技_21
+      - 科技网络 160
+      - 加拿大_YouTube：8度科技 13
+      - 韩国2•1.5x
+      - 新加坡 | 101 | AWS | 1x
+      - CYL-科技（2022.01.31） 16
+      - CYL-科技（2022.01.31） 17
+      - CYL-科技（2022.01.31） 18
+      - CYL-科技（2022.01.31） 19
+      - 加拿大_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 20
+      - CYL-科技（2022.01.31） 21
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 美国1•流媒解锁•1x
+      - CYL-科技（2022.01.31） 24
+      - 台灣2•华南入口2•HiNet•流媒解锁•2x
+      - _GB_英国_高速_290
+      - （晓猛社区）_101
+      - 英国_YouTube：8度科技 6
+      - 科技网络 28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _GB_英国_高速_459
-      - Relay_🇹🇼TW-🇹🇼TW_1087
       - 27美国∞中转
-      - US_471
+      - Pool_🇹🇼TW_1190
       - CYL-科技（2022.01.31）
-      - Earth_237
-      - CA_176 |33.25Mb
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.01.31） 2
-      - Ytb:鹏哥分享_加拿大_99
+      - 中国_YouTube：8度科技
+      - TW_1235 |11.12Mb
+      - Relay_🇹🇼TW-🇹🇼TW_910 |22.94Mb
       - CN_476+|+8.30Mb
-      - US_448
-      - Relay_🇪🇪EE-🇯🇵JP_102 |10.91Mb
-      - 科技网络 248
-      - _GB_英国_高速_371
       - Relay_🇹🇼TW-🇹🇼TW_1086
-      - CYL-科技（2022.01.31） 3
-      - 科技网络 196
-      - CYL-科技（2022.01.31） 4
-      - 中国【YouTube由零開始】
-      - CYL-科技（2022.01.31） 5
-      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
-      - _US_美国
-      - _US_美国 2
-      - Atlanta-GTHost 358
-      - _GB_英国_高速_460
-      - _GB_英国_高速_358
-      - CYL-科技（2022.01.31） 6
-      - _FR_法国
-      - Ytb:鹏哥分享_加拿大_68
-      - CA_178 |60.49Mb
-      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_300_20.57Mb
-      - CYL-科技（2022.01.31） 7
-      - Relay_🇯🇵JP-🇯🇵JP_140
-      - _US_美国 3
-      - CA_82
+      - Relay_🇹🇼TW-🇹🇼TW_1192
+      - Relay_🇹🇼TW-🇹🇼TW_113
+      - 美国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 2
+      - 印度_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - Relay_🇹🇼TW-🇹🇼TW_1193
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
       - Relay_🇨🇳CN-🇹🇼TW_269
-      - _GB_英国_高速_411
-      - US_381
-      - US_510
-      - FR_193
-      - Frankfurt-Linode 251
-      - 科技网络 49
-      - 科技网络 261
-      - CYL-科技（2022.01.31） 8
-      - CYL-科技（2022.01.31） 9
-      - CYL-科技（2022.01.31） 10
-      - CYL-科技（2022.01.31） 11
-      - 科技网络 30
-      - 科技网络 144
-      - CYL-科技（2022.01.31） 12
-      - _US_美国 4
-      - 中国【YouTube由零開始】 2
-      - _GB_英国_高速_73
-      - _US_美国 5
-      - _US_美国 6
+      - 印度_YouTube：8度科技 2
+      - _GB_英国_高速_459
+      - CYL-科技（2021.01.02）
+      - US_448
+      - 美国_YouTube：8度科技 6
+      - _GB_英国_高速_358
+      - CYL-科技（2022.01.31） 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 法国_YouTube：8度科技
+      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
+      - 加拿大_YouTube：8度科技 2
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 10
+      - TW_1135 |18.40Mb
+      - 美国_YouTube：8度科技 11
+      - _US_美国
+      - 美国_YouTube：8度科技 12
+      - CYL-科技（2022.01.31） 3
+      - Relay_🇨🇳CN-🇹🇼TW_347 |12.55Mb
+      - 加拿大_YouTube：8度科技 3
+      - Relay_🇨🇳CN-🇹🇼TW_183
+      - _GB_英国_高速_371
+      - 加拿大_YouTube：8度科技 4
+      - 中国_YouTube：8度科技 3
+      - Ytb:鹏哥分享_加拿大_99
+      - 英国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 13
+      - CYL-科技（2022.01.31） 4
+      - Relay_🇨🇳CN-🇹🇼TW_293
+      - Relay_🇨🇳CN-🇹🇼TW_59 | 3.96Mb
+      - Relay_🇹🇼TW-🇹🇼TW_1087
+      - 加拿大_YouTube：8度科技 7
+      - _US_美国 2
+      - 英国_YouTube：8度科技 3
+      - CN_430+|10.06Mb
+      - 英国_YouTube：8度科技 4
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 5
+      - CA_82
+      - 加拿大_YouTube：8度科技 10
       - 科技网络 387
+      - 美国_YouTube：8度科技 15
+      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - Relay_🇨🇳CN-🇹🇼TW_310 |20.09Mb
+      - 英国_YouTube：8度科技 5
+      - US_381
+      - Relay_🇨🇳CN-🇹🇼TW_316
+      - 加拿大_YouTube：8度科技 11
+      - CYL-科技（2022.01.31） 6
+      - CYL-科技（2022.01.31） 7
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.31） 8
+      - _US_美国 3
+      - _AU_澳大利亚
+      - 美国_YouTube：8度科技 16
       - _CA_加拿大
-      - +Miami-GTHost
-      - _FR_法国 2
-      - _CA_加拿大 2
-      - Frankfurt-Linode 35
-      - Frankfurt-Linode 8
-      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 9
+      - Frankfurt-GTHost 99
+      - CA_75
+      - CYL-科技（2022.01.31） 10
+      - _GB_英国_高速_339
+      - _加拿大_YouTube:VV科技_33
+      - 科技网络 372
+      - 法国_YouTube：8度科技 2
+      - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 12
+      - FR_193
+      - +Paris-Online
+      - （晓猛社区）_119
+      - +Limburg+an+der+Lahn-OVH
+      - CYL-科技（2022.01.31） 13
+      - CYL-科技（2022.01.31） 14
+      - 科技网络 173
+      - CYL-科技（2022.01.31） 15
+      - 加拿大_YouTube：8度科技 12
+      - 香港1•流媒•负载均衡•2x
+      - 日本4•华东入口•1x
+      - "IN #2 中转"
+      - 美国_YouTube：8度科技 17
+      - Ytb:鹏哥分享_加拿大_102
+      - _德国_YouTube:VV科技_21
+      - 科技网络 160
+      - 加拿大_YouTube：8度科技 13
+      - 韩国2•1.5x
+      - 新加坡 | 101 | AWS | 1x
+      - CYL-科技（2022.01.31） 16
+      - CYL-科技（2022.01.31） 17
+      - CYL-科技（2022.01.31） 18
+      - CYL-科技（2022.01.31） 19
+      - 加拿大_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 20
+      - CYL-科技（2022.01.31） 21
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 美国1•流媒解锁•1x
+      - CYL-科技（2022.01.31） 24
+      - 台灣2•华南入口2•HiNet•流媒解锁•2x
+      - _GB_英国_高速_290
+      - （晓猛社区）_101
+      - 英国_YouTube：8度科技 6
+      - 科技网络 28
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _GB_英国_高速_459
-      - Relay_🇹🇼TW-🇹🇼TW_1087
       - 27美国∞中转
-      - US_471
+      - Pool_🇹🇼TW_1190
       - CYL-科技（2022.01.31）
-      - Earth_237
-      - CA_176 |33.25Mb
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.01.31） 2
-      - Ytb:鹏哥分享_加拿大_99
+      - 中国_YouTube：8度科技
+      - TW_1235 |11.12Mb
+      - Relay_🇹🇼TW-🇹🇼TW_910 |22.94Mb
       - CN_476+|+8.30Mb
-      - US_448
-      - Relay_🇪🇪EE-🇯🇵JP_102 |10.91Mb
-      - 科技网络 248
-      - _GB_英国_高速_371
       - Relay_🇹🇼TW-🇹🇼TW_1086
-      - CYL-科技（2022.01.31） 3
-      - 科技网络 196
-      - CYL-科技（2022.01.31） 4
-      - 中国【YouTube由零開始】
-      - CYL-科技（2022.01.31） 5
-      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
-      - _US_美国
-      - _US_美国 2
-      - Atlanta-GTHost 358
-      - _GB_英国_高速_460
-      - _GB_英国_高速_358
-      - CYL-科技（2022.01.31） 6
-      - _FR_法国
-      - Ytb:鹏哥分享_加拿大_68
-      - CA_178 |60.49Mb
-      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_300_20.57Mb
-      - CYL-科技（2022.01.31） 7
-      - Relay_🇯🇵JP-🇯🇵JP_140
-      - _US_美国 3
-      - CA_82
+      - Relay_🇹🇼TW-🇹🇼TW_1192
+      - Relay_🇹🇼TW-🇹🇼TW_113
+      - 美国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 2
+      - 印度_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - Relay_🇹🇼TW-🇹🇼TW_1193
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
       - Relay_🇨🇳CN-🇹🇼TW_269
-      - _GB_英国_高速_411
-      - US_381
-      - US_510
-      - FR_193
-      - Frankfurt-Linode 251
-      - 科技网络 49
-      - 科技网络 261
-      - CYL-科技（2022.01.31） 8
-      - CYL-科技（2022.01.31） 9
-      - CYL-科技（2022.01.31） 10
-      - CYL-科技（2022.01.31） 11
-      - 科技网络 30
-      - 科技网络 144
-      - CYL-科技（2022.01.31） 12
-      - _US_美国 4
-      - 中国【YouTube由零開始】 2
-      - _GB_英国_高速_73
-      - _US_美国 5
-      - _US_美国 6
+      - 印度_YouTube：8度科技 2
+      - _GB_英国_高速_459
+      - CYL-科技（2021.01.02）
+      - US_448
+      - 美国_YouTube：8度科技 6
+      - _GB_英国_高速_358
+      - CYL-科技（2022.01.31） 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 法国_YouTube：8度科技
+      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
+      - 加拿大_YouTube：8度科技 2
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 10
+      - TW_1135 |18.40Mb
+      - 美国_YouTube：8度科技 11
+      - _US_美国
+      - 美国_YouTube：8度科技 12
+      - CYL-科技（2022.01.31） 3
+      - Relay_🇨🇳CN-🇹🇼TW_347 |12.55Mb
+      - 加拿大_YouTube：8度科技 3
+      - Relay_🇨🇳CN-🇹🇼TW_183
+      - _GB_英国_高速_371
+      - 加拿大_YouTube：8度科技 4
+      - 中国_YouTube：8度科技 3
+      - Ytb:鹏哥分享_加拿大_99
+      - 英国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 13
+      - CYL-科技（2022.01.31） 4
+      - Relay_🇨🇳CN-🇹🇼TW_293
+      - Relay_🇨🇳CN-🇹🇼TW_59 | 3.96Mb
+      - Relay_🇹🇼TW-🇹🇼TW_1087
+      - 加拿大_YouTube：8度科技 7
+      - _US_美国 2
+      - 英国_YouTube：8度科技 3
+      - CN_430+|10.06Mb
+      - 英国_YouTube：8度科技 4
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 5
+      - CA_82
+      - 加拿大_YouTube：8度科技 10
       - 科技网络 387
+      - 美国_YouTube：8度科技 15
+      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - Relay_🇨🇳CN-🇹🇼TW_310 |20.09Mb
+      - 英国_YouTube：8度科技 5
+      - US_381
+      - Relay_🇨🇳CN-🇹🇼TW_316
+      - 加拿大_YouTube：8度科技 11
+      - CYL-科技（2022.01.31） 6
+      - CYL-科技（2022.01.31） 7
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.31） 8
+      - _US_美国 3
+      - _AU_澳大利亚
+      - 美国_YouTube：8度科技 16
       - _CA_加拿大
-      - +Miami-GTHost
-      - _FR_法国 2
-      - _CA_加拿大 2
-      - Frankfurt-Linode 35
-      - Frankfurt-Linode 8
-      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 9
+      - Frankfurt-GTHost 99
+      - CA_75
+      - CYL-科技（2022.01.31） 10
+      - _GB_英国_高速_339
+      - _加拿大_YouTube:VV科技_33
+      - 科技网络 372
+      - 法国_YouTube：8度科技 2
+      - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 12
+      - FR_193
+      - +Paris-Online
+      - （晓猛社区）_119
+      - +Limburg+an+der+Lahn-OVH
+      - CYL-科技（2022.01.31） 13
+      - CYL-科技（2022.01.31） 14
+      - 科技网络 173
+      - CYL-科技（2022.01.31） 15
+      - 加拿大_YouTube：8度科技 12
+      - 香港1•流媒•负载均衡•2x
+      - 日本4•华东入口•1x
+      - "IN #2 中转"
+      - 美国_YouTube：8度科技 17
+      - Ytb:鹏哥分享_加拿大_102
+      - _德国_YouTube:VV科技_21
+      - 科技网络 160
+      - 加拿大_YouTube：8度科技 13
+      - 韩国2•1.5x
+      - 新加坡 | 101 | AWS | 1x
+      - CYL-科技（2022.01.31） 16
+      - CYL-科技（2022.01.31） 17
+      - CYL-科技（2022.01.31） 18
+      - CYL-科技（2022.01.31） 19
+      - 加拿大_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 20
+      - CYL-科技（2022.01.31） 21
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 美国1•流媒解锁•1x
+      - CYL-科技（2022.01.31） 24
+      - 台灣2•华南入口2•HiNet•流媒解锁•2x
+      - _GB_英国_高速_290
+      - （晓猛社区）_101
+      - 英国_YouTube：8度科技 6
+      - 科技网络 28
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _GB_英国_高速_459
-      - Relay_🇹🇼TW-🇹🇼TW_1087
       - 27美国∞中转
-      - US_471
+      - Pool_🇹🇼TW_1190
       - CYL-科技（2022.01.31）
-      - Earth_237
-      - CA_176 |33.25Mb
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.01.31） 2
-      - Ytb:鹏哥分享_加拿大_99
+      - 中国_YouTube：8度科技
+      - TW_1235 |11.12Mb
+      - Relay_🇹🇼TW-🇹🇼TW_910 |22.94Mb
       - CN_476+|+8.30Mb
-      - US_448
-      - Relay_🇪🇪EE-🇯🇵JP_102 |10.91Mb
-      - 科技网络 248
-      - _GB_英国_高速_371
       - Relay_🇹🇼TW-🇹🇼TW_1086
-      - CYL-科技（2022.01.31） 3
-      - 科技网络 196
-      - CYL-科技（2022.01.31） 4
-      - 中国【YouTube由零開始】
-      - CYL-科技（2022.01.31） 5
-      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
-      - _US_美国
-      - _US_美国 2
-      - Atlanta-GTHost 358
-      - _GB_英国_高速_460
-      - _GB_英国_高速_358
-      - CYL-科技（2022.01.31） 6
-      - _FR_法国
-      - Ytb:鹏哥分享_加拿大_68
-      - CA_178 |60.49Mb
-      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_300_20.57Mb
-      - CYL-科技（2022.01.31） 7
-      - Relay_🇯🇵JP-🇯🇵JP_140
-      - _US_美国 3
-      - CA_82
+      - Relay_🇹🇼TW-🇹🇼TW_1192
+      - Relay_🇹🇼TW-🇹🇼TW_113
+      - 美国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 2
+      - 印度_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - Relay_🇹🇼TW-🇹🇼TW_1193
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
       - Relay_🇨🇳CN-🇹🇼TW_269
-      - _GB_英国_高速_411
-      - US_381
-      - US_510
-      - FR_193
-      - Frankfurt-Linode 251
-      - 科技网络 49
-      - 科技网络 261
-      - CYL-科技（2022.01.31） 8
-      - CYL-科技（2022.01.31） 9
-      - CYL-科技（2022.01.31） 10
-      - CYL-科技（2022.01.31） 11
-      - 科技网络 30
-      - 科技网络 144
-      - CYL-科技（2022.01.31） 12
-      - _US_美国 4
-      - 中国【YouTube由零開始】 2
-      - _GB_英国_高速_73
-      - _US_美国 5
-      - _US_美国 6
+      - 印度_YouTube：8度科技 2
+      - _GB_英国_高速_459
+      - CYL-科技（2021.01.02）
+      - US_448
+      - 美国_YouTube：8度科技 6
+      - _GB_英国_高速_358
+      - CYL-科技（2022.01.31） 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 法国_YouTube：8度科技
+      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
+      - 加拿大_YouTube：8度科技 2
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 10
+      - TW_1135 |18.40Mb
+      - 美国_YouTube：8度科技 11
+      - _US_美国
+      - 美国_YouTube：8度科技 12
+      - CYL-科技（2022.01.31） 3
+      - Relay_🇨🇳CN-🇹🇼TW_347 |12.55Mb
+      - 加拿大_YouTube：8度科技 3
+      - Relay_🇨🇳CN-🇹🇼TW_183
+      - _GB_英国_高速_371
+      - 加拿大_YouTube：8度科技 4
+      - 中国_YouTube：8度科技 3
+      - Ytb:鹏哥分享_加拿大_99
+      - 英国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 13
+      - CYL-科技（2022.01.31） 4
+      - Relay_🇨🇳CN-🇹🇼TW_293
+      - Relay_🇨🇳CN-🇹🇼TW_59 | 3.96Mb
+      - Relay_🇹🇼TW-🇹🇼TW_1087
+      - 加拿大_YouTube：8度科技 7
+      - _US_美国 2
+      - 英国_YouTube：8度科技 3
+      - CN_430+|10.06Mb
+      - 英国_YouTube：8度科技 4
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 5
+      - CA_82
+      - 加拿大_YouTube：8度科技 10
       - 科技网络 387
+      - 美国_YouTube：8度科技 15
+      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - Relay_🇨🇳CN-🇹🇼TW_310 |20.09Mb
+      - 英国_YouTube：8度科技 5
+      - US_381
+      - Relay_🇨🇳CN-🇹🇼TW_316
+      - 加拿大_YouTube：8度科技 11
+      - CYL-科技（2022.01.31） 6
+      - CYL-科技（2022.01.31） 7
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.31） 8
+      - _US_美国 3
+      - _AU_澳大利亚
+      - 美国_YouTube：8度科技 16
       - _CA_加拿大
-      - +Miami-GTHost
-      - _FR_法国 2
-      - _CA_加拿大 2
-      - Frankfurt-Linode 35
-      - Frankfurt-Linode 8
-      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 9
+      - Frankfurt-GTHost 99
+      - CA_75
+      - CYL-科技（2022.01.31） 10
+      - _GB_英国_高速_339
+      - _加拿大_YouTube:VV科技_33
+      - 科技网络 372
+      - 法国_YouTube：8度科技 2
+      - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 12
+      - FR_193
+      - +Paris-Online
+      - （晓猛社区）_119
+      - +Limburg+an+der+Lahn-OVH
+      - CYL-科技（2022.01.31） 13
+      - CYL-科技（2022.01.31） 14
+      - 科技网络 173
+      - CYL-科技（2022.01.31） 15
+      - 加拿大_YouTube：8度科技 12
+      - 香港1•流媒•负载均衡•2x
+      - 日本4•华东入口•1x
+      - "IN #2 中转"
+      - 美国_YouTube：8度科技 17
+      - Ytb:鹏哥分享_加拿大_102
+      - _德国_YouTube:VV科技_21
+      - 科技网络 160
+      - 加拿大_YouTube：8度科技 13
+      - 韩国2•1.5x
+      - 新加坡 | 101 | AWS | 1x
+      - CYL-科技（2022.01.31） 16
+      - CYL-科技（2022.01.31） 17
+      - CYL-科技（2022.01.31） 18
+      - CYL-科技（2022.01.31） 19
+      - 加拿大_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 20
+      - CYL-科技（2022.01.31） 21
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 美国1•流媒解锁•1x
+      - CYL-科技（2022.01.31） 24
+      - 台灣2•华南入口2•HiNet•流媒解锁•2x
+      - _GB_英国_高速_290
+      - （晓猛社区）_101
+      - 英国_YouTube：8度科技 6
+      - 科技网络 28
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -372,287 +692,545 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _GB_英国_高速_459
-      - Relay_🇹🇼TW-🇹🇼TW_1087
       - 27美国∞中转
-      - US_471
+      - Pool_🇹🇼TW_1190
       - CYL-科技（2022.01.31）
-      - Earth_237
-      - CA_176 |33.25Mb
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.01.31） 2
-      - Ytb:鹏哥分享_加拿大_99
+      - 中国_YouTube：8度科技
+      - TW_1235 |11.12Mb
+      - Relay_🇹🇼TW-🇹🇼TW_910 |22.94Mb
       - CN_476+|+8.30Mb
-      - US_448
-      - Relay_🇪🇪EE-🇯🇵JP_102 |10.91Mb
-      - 科技网络 248
-      - _GB_英国_高速_371
       - Relay_🇹🇼TW-🇹🇼TW_1086
-      - CYL-科技（2022.01.31） 3
-      - 科技网络 196
-      - CYL-科技（2022.01.31） 4
-      - 中国【YouTube由零開始】
-      - CYL-科技（2022.01.31） 5
-      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
-      - _US_美国
-      - _US_美国 2
-      - Atlanta-GTHost 358
-      - _GB_英国_高速_460
-      - _GB_英国_高速_358
-      - CYL-科技（2022.01.31） 6
-      - _FR_法国
-      - Ytb:鹏哥分享_加拿大_68
-      - CA_178 |60.49Mb
-      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_300_20.57Mb
-      - CYL-科技（2022.01.31） 7
-      - Relay_🇯🇵JP-🇯🇵JP_140
-      - _US_美国 3
-      - CA_82
+      - Relay_🇹🇼TW-🇹🇼TW_1192
+      - Relay_🇹🇼TW-🇹🇼TW_113
+      - 美国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 2
+      - 印度_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - Relay_🇹🇼TW-🇹🇼TW_1193
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
       - Relay_🇨🇳CN-🇹🇼TW_269
-      - _GB_英国_高速_411
-      - US_381
-      - US_510
-      - FR_193
-      - Frankfurt-Linode 251
-      - 科技网络 49
-      - 科技网络 261
-      - CYL-科技（2022.01.31） 8
-      - CYL-科技（2022.01.31） 9
-      - CYL-科技（2022.01.31） 10
-      - CYL-科技（2022.01.31） 11
-      - 科技网络 30
-      - 科技网络 144
-      - CYL-科技（2022.01.31） 12
-      - _US_美国 4
-      - 中国【YouTube由零開始】 2
-      - _GB_英国_高速_73
-      - _US_美国 5
-      - _US_美国 6
+      - 印度_YouTube：8度科技 2
+      - _GB_英国_高速_459
+      - CYL-科技（2021.01.02）
+      - US_448
+      - 美国_YouTube：8度科技 6
+      - _GB_英国_高速_358
+      - CYL-科技（2022.01.31） 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 法国_YouTube：8度科技
+      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
+      - 加拿大_YouTube：8度科技 2
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 10
+      - TW_1135 |18.40Mb
+      - 美国_YouTube：8度科技 11
+      - _US_美国
+      - 美国_YouTube：8度科技 12
+      - CYL-科技（2022.01.31） 3
+      - Relay_🇨🇳CN-🇹🇼TW_347 |12.55Mb
+      - 加拿大_YouTube：8度科技 3
+      - Relay_🇨🇳CN-🇹🇼TW_183
+      - _GB_英国_高速_371
+      - 加拿大_YouTube：8度科技 4
+      - 中国_YouTube：8度科技 3
+      - Ytb:鹏哥分享_加拿大_99
+      - 英国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 13
+      - CYL-科技（2022.01.31） 4
+      - Relay_🇨🇳CN-🇹🇼TW_293
+      - Relay_🇨🇳CN-🇹🇼TW_59 | 3.96Mb
+      - Relay_🇹🇼TW-🇹🇼TW_1087
+      - 加拿大_YouTube：8度科技 7
+      - _US_美国 2
+      - 英国_YouTube：8度科技 3
+      - CN_430+|10.06Mb
+      - 英国_YouTube：8度科技 4
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 5
+      - CA_82
+      - 加拿大_YouTube：8度科技 10
       - 科技网络 387
+      - 美国_YouTube：8度科技 15
+      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - Relay_🇨🇳CN-🇹🇼TW_310 |20.09Mb
+      - 英国_YouTube：8度科技 5
+      - US_381
+      - Relay_🇨🇳CN-🇹🇼TW_316
+      - 加拿大_YouTube：8度科技 11
+      - CYL-科技（2022.01.31） 6
+      - CYL-科技（2022.01.31） 7
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.31） 8
+      - _US_美国 3
+      - _AU_澳大利亚
+      - 美国_YouTube：8度科技 16
       - _CA_加拿大
-      - +Miami-GTHost
-      - _FR_法国 2
-      - _CA_加拿大 2
-      - Frankfurt-Linode 35
-      - Frankfurt-Linode 8
-      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 9
+      - Frankfurt-GTHost 99
+      - CA_75
+      - CYL-科技（2022.01.31） 10
+      - _GB_英国_高速_339
+      - _加拿大_YouTube:VV科技_33
+      - 科技网络 372
+      - 法国_YouTube：8度科技 2
+      - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 12
+      - FR_193
+      - +Paris-Online
+      - （晓猛社区）_119
+      - +Limburg+an+der+Lahn-OVH
+      - CYL-科技（2022.01.31） 13
+      - CYL-科技（2022.01.31） 14
+      - 科技网络 173
+      - CYL-科技（2022.01.31） 15
+      - 加拿大_YouTube：8度科技 12
+      - 香港1•流媒•负载均衡•2x
+      - 日本4•华东入口•1x
+      - "IN #2 中转"
+      - 美国_YouTube：8度科技 17
+      - Ytb:鹏哥分享_加拿大_102
+      - _德国_YouTube:VV科技_21
+      - 科技网络 160
+      - 加拿大_YouTube：8度科技 13
+      - 韩国2•1.5x
+      - 新加坡 | 101 | AWS | 1x
+      - CYL-科技（2022.01.31） 16
+      - CYL-科技（2022.01.31） 17
+      - CYL-科技（2022.01.31） 18
+      - CYL-科技（2022.01.31） 19
+      - 加拿大_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 20
+      - CYL-科技（2022.01.31） 21
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 美国1•流媒解锁•1x
+      - CYL-科技（2022.01.31） 24
+      - 台灣2•华南入口2•HiNet•流媒解锁•2x
+      - _GB_英国_高速_290
+      - （晓猛社区）_101
+      - 英国_YouTube：8度科技 6
+      - 科技网络 28
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港1•流媒•负载均衡•2x
+      - 台灣2•华南入口2•HiNet•流媒解锁•2x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _GB_英国_高速_459
-      - Relay_🇹🇼TW-🇹🇼TW_1087
       - 27美国∞中转
-      - US_471
+      - Pool_🇹🇼TW_1190
       - CYL-科技（2022.01.31）
-      - Earth_237
-      - CA_176 |33.25Mb
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.01.31） 2
-      - Ytb:鹏哥分享_加拿大_99
+      - 中国_YouTube：8度科技
+      - TW_1235 |11.12Mb
+      - Relay_🇹🇼TW-🇹🇼TW_910 |22.94Mb
       - CN_476+|+8.30Mb
-      - US_448
-      - Relay_🇪🇪EE-🇯🇵JP_102 |10.91Mb
-      - 科技网络 248
-      - _GB_英国_高速_371
       - Relay_🇹🇼TW-🇹🇼TW_1086
-      - CYL-科技（2022.01.31） 3
-      - 科技网络 196
-      - CYL-科技（2022.01.31） 4
-      - 中国【YouTube由零開始】
-      - CYL-科技（2022.01.31） 5
-      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
-      - _US_美国
-      - _US_美国 2
-      - Atlanta-GTHost 358
-      - _GB_英国_高速_460
-      - _GB_英国_高速_358
-      - CYL-科技（2022.01.31） 6
-      - _FR_法国
-      - Ytb:鹏哥分享_加拿大_68
-      - CA_178 |60.49Mb
-      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_300_20.57Mb
-      - CYL-科技（2022.01.31） 7
-      - Relay_🇯🇵JP-🇯🇵JP_140
-      - _US_美国 3
-      - CA_82
+      - Relay_🇹🇼TW-🇹🇼TW_1192
+      - Relay_🇹🇼TW-🇹🇼TW_113
+      - 美国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 2
+      - 印度_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - Relay_🇹🇼TW-🇹🇼TW_1193
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
       - Relay_🇨🇳CN-🇹🇼TW_269
-      - _GB_英国_高速_411
-      - US_381
-      - US_510
-      - FR_193
-      - Frankfurt-Linode 251
-      - 科技网络 49
-      - 科技网络 261
-      - CYL-科技（2022.01.31） 8
-      - CYL-科技（2022.01.31） 9
-      - CYL-科技（2022.01.31） 10
-      - CYL-科技（2022.01.31） 11
-      - 科技网络 30
-      - 科技网络 144
-      - CYL-科技（2022.01.31） 12
-      - _US_美国 4
-      - 中国【YouTube由零開始】 2
-      - _GB_英国_高速_73
-      - _US_美国 5
-      - _US_美国 6
+      - 印度_YouTube：8度科技 2
+      - _GB_英国_高速_459
+      - CYL-科技（2021.01.02）
+      - US_448
+      - 美国_YouTube：8度科技 6
+      - _GB_英国_高速_358
+      - CYL-科技（2022.01.31） 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 法国_YouTube：8度科技
+      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
+      - 加拿大_YouTube：8度科技 2
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 10
+      - TW_1135 |18.40Mb
+      - 美国_YouTube：8度科技 11
+      - _US_美国
+      - 美国_YouTube：8度科技 12
+      - CYL-科技（2022.01.31） 3
+      - Relay_🇨🇳CN-🇹🇼TW_347 |12.55Mb
+      - 加拿大_YouTube：8度科技 3
+      - Relay_🇨🇳CN-🇹🇼TW_183
+      - _GB_英国_高速_371
+      - 加拿大_YouTube：8度科技 4
+      - 中国_YouTube：8度科技 3
+      - Ytb:鹏哥分享_加拿大_99
+      - 英国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 13
+      - CYL-科技（2022.01.31） 4
+      - Relay_🇨🇳CN-🇹🇼TW_293
+      - Relay_🇨🇳CN-🇹🇼TW_59 | 3.96Mb
+      - Relay_🇹🇼TW-🇹🇼TW_1087
+      - 加拿大_YouTube：8度科技 7
+      - _US_美国 2
+      - 英国_YouTube：8度科技 3
+      - CN_430+|10.06Mb
+      - 英国_YouTube：8度科技 4
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 5
+      - CA_82
+      - 加拿大_YouTube：8度科技 10
       - 科技网络 387
+      - 美国_YouTube：8度科技 15
+      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - Relay_🇨🇳CN-🇹🇼TW_310 |20.09Mb
+      - 英国_YouTube：8度科技 5
+      - US_381
+      - Relay_🇨🇳CN-🇹🇼TW_316
+      - 加拿大_YouTube：8度科技 11
+      - CYL-科技（2022.01.31） 6
+      - CYL-科技（2022.01.31） 7
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.31） 8
+      - _US_美国 3
+      - _AU_澳大利亚
+      - 美国_YouTube：8度科技 16
       - _CA_加拿大
-      - +Miami-GTHost
-      - _FR_法国 2
-      - _CA_加拿大 2
-      - Frankfurt-Linode 35
-      - Frankfurt-Linode 8
-      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 9
+      - Frankfurt-GTHost 99
+      - CA_75
+      - CYL-科技（2022.01.31） 10
+      - _GB_英国_高速_339
+      - _加拿大_YouTube:VV科技_33
+      - 科技网络 372
+      - 法国_YouTube：8度科技 2
+      - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 12
+      - FR_193
+      - +Paris-Online
+      - （晓猛社区）_119
+      - +Limburg+an+der+Lahn-OVH
+      - CYL-科技（2022.01.31） 13
+      - CYL-科技（2022.01.31） 14
+      - 科技网络 173
+      - CYL-科技（2022.01.31） 15
+      - 加拿大_YouTube：8度科技 12
+      - 香港1•流媒•负载均衡•2x
+      - 日本4•华东入口•1x
+      - "IN #2 中转"
+      - 美国_YouTube：8度科技 17
+      - Ytb:鹏哥分享_加拿大_102
+      - _德国_YouTube:VV科技_21
+      - 科技网络 160
+      - 加拿大_YouTube：8度科技 13
+      - 韩国2•1.5x
+      - 新加坡 | 101 | AWS | 1x
+      - CYL-科技（2022.01.31） 16
+      - CYL-科技（2022.01.31） 17
+      - CYL-科技（2022.01.31） 18
+      - CYL-科技（2022.01.31） 19
+      - 加拿大_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 20
+      - CYL-科技（2022.01.31） 21
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 美国1•流媒解锁•1x
+      - CYL-科技（2022.01.31） 24
+      - 台灣2•华南入口2•HiNet•流媒解锁•2x
+      - _GB_英国_高速_290
+      - （晓猛社区）_101
+      - 英国_YouTube：8度科技 6
+      - 科技网络 28
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _GB_英国_高速_459
-      - Relay_🇹🇼TW-🇹🇼TW_1087
       - 27美国∞中转
-      - US_471
+      - Pool_🇹🇼TW_1190
       - CYL-科技（2022.01.31）
-      - Earth_237
-      - CA_176 |33.25Mb
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.01.31） 2
-      - Ytb:鹏哥分享_加拿大_99
+      - 中国_YouTube：8度科技
+      - TW_1235 |11.12Mb
+      - Relay_🇹🇼TW-🇹🇼TW_910 |22.94Mb
       - CN_476+|+8.30Mb
-      - US_448
-      - Relay_🇪🇪EE-🇯🇵JP_102 |10.91Mb
-      - 科技网络 248
-      - _GB_英国_高速_371
       - Relay_🇹🇼TW-🇹🇼TW_1086
-      - CYL-科技（2022.01.31） 3
-      - 科技网络 196
-      - CYL-科技（2022.01.31） 4
-      - 中国【YouTube由零開始】
-      - CYL-科技（2022.01.31） 5
-      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
-      - _US_美国
-      - _US_美国 2
-      - Atlanta-GTHost 358
-      - _GB_英国_高速_460
-      - _GB_英国_高速_358
-      - CYL-科技（2022.01.31） 6
-      - _FR_法国
-      - Ytb:鹏哥分享_加拿大_68
-      - CA_178 |60.49Mb
-      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_300_20.57Mb
-      - CYL-科技（2022.01.31） 7
-      - Relay_🇯🇵JP-🇯🇵JP_140
-      - _US_美国 3
-      - CA_82
+      - Relay_🇹🇼TW-🇹🇼TW_1192
+      - Relay_🇹🇼TW-🇹🇼TW_113
+      - 美国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 2
+      - 印度_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - Relay_🇹🇼TW-🇹🇼TW_1193
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
       - Relay_🇨🇳CN-🇹🇼TW_269
-      - _GB_英国_高速_411
-      - US_381
-      - US_510
-      - FR_193
-      - Frankfurt-Linode 251
-      - 科技网络 49
-      - 科技网络 261
-      - CYL-科技（2022.01.31） 8
-      - CYL-科技（2022.01.31） 9
-      - CYL-科技（2022.01.31） 10
-      - CYL-科技（2022.01.31） 11
-      - 科技网络 30
-      - 科技网络 144
-      - CYL-科技（2022.01.31） 12
-      - _US_美国 4
-      - 中国【YouTube由零開始】 2
-      - _GB_英国_高速_73
-      - _US_美国 5
-      - _US_美国 6
+      - 印度_YouTube：8度科技 2
+      - _GB_英国_高速_459
+      - CYL-科技（2021.01.02）
+      - US_448
+      - 美国_YouTube：8度科技 6
+      - _GB_英国_高速_358
+      - CYL-科技（2022.01.31） 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 法国_YouTube：8度科技
+      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
+      - 加拿大_YouTube：8度科技 2
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 10
+      - TW_1135 |18.40Mb
+      - 美国_YouTube：8度科技 11
+      - _US_美国
+      - 美国_YouTube：8度科技 12
+      - CYL-科技（2022.01.31） 3
+      - Relay_🇨🇳CN-🇹🇼TW_347 |12.55Mb
+      - 加拿大_YouTube：8度科技 3
+      - Relay_🇨🇳CN-🇹🇼TW_183
+      - _GB_英国_高速_371
+      - 加拿大_YouTube：8度科技 4
+      - 中国_YouTube：8度科技 3
+      - Ytb:鹏哥分享_加拿大_99
+      - 英国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 13
+      - CYL-科技（2022.01.31） 4
+      - Relay_🇨🇳CN-🇹🇼TW_293
+      - Relay_🇨🇳CN-🇹🇼TW_59 | 3.96Mb
+      - Relay_🇹🇼TW-🇹🇼TW_1087
+      - 加拿大_YouTube：8度科技 7
+      - _US_美国 2
+      - 英国_YouTube：8度科技 3
+      - CN_430+|10.06Mb
+      - 英国_YouTube：8度科技 4
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 5
+      - CA_82
+      - 加拿大_YouTube：8度科技 10
       - 科技网络 387
+      - 美国_YouTube：8度科技 15
+      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - Relay_🇨🇳CN-🇹🇼TW_310 |20.09Mb
+      - 英国_YouTube：8度科技 5
+      - US_381
+      - Relay_🇨🇳CN-🇹🇼TW_316
+      - 加拿大_YouTube：8度科技 11
+      - CYL-科技（2022.01.31） 6
+      - CYL-科技（2022.01.31） 7
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.31） 8
+      - _US_美国 3
+      - _AU_澳大利亚
+      - 美国_YouTube：8度科技 16
       - _CA_加拿大
-      - +Miami-GTHost
-      - _FR_法国 2
-      - _CA_加拿大 2
-      - Frankfurt-Linode 35
-      - Frankfurt-Linode 8
-      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 9
+      - Frankfurt-GTHost 99
+      - CA_75
+      - CYL-科技（2022.01.31） 10
+      - _GB_英国_高速_339
+      - _加拿大_YouTube:VV科技_33
+      - 科技网络 372
+      - 法国_YouTube：8度科技 2
+      - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 12
+      - FR_193
+      - +Paris-Online
+      - （晓猛社区）_119
+      - +Limburg+an+der+Lahn-OVH
+      - CYL-科技（2022.01.31） 13
+      - CYL-科技（2022.01.31） 14
+      - 科技网络 173
+      - CYL-科技（2022.01.31） 15
+      - 加拿大_YouTube：8度科技 12
+      - 香港1•流媒•负载均衡•2x
+      - 日本4•华东入口•1x
+      - "IN #2 中转"
+      - 美国_YouTube：8度科技 17
+      - Ytb:鹏哥分享_加拿大_102
+      - _德国_YouTube:VV科技_21
+      - 科技网络 160
+      - 加拿大_YouTube：8度科技 13
+      - 韩国2•1.5x
+      - 新加坡 | 101 | AWS | 1x
+      - CYL-科技（2022.01.31） 16
+      - CYL-科技（2022.01.31） 17
+      - CYL-科技（2022.01.31） 18
+      - CYL-科技（2022.01.31） 19
+      - 加拿大_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 20
+      - CYL-科技（2022.01.31） 21
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 美国1•流媒解锁•1x
+      - CYL-科技（2022.01.31） 24
+      - 台灣2•华南入口2•HiNet•流媒解锁•2x
+      - _GB_英国_高速_290
+      - （晓猛社区）_101
+      - 英国_YouTube：8度科技 6
+      - 科技网络 28
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _GB_英国_高速_459
-      - Relay_🇹🇼TW-🇹🇼TW_1087
       - 27美国∞中转
-      - US_471
+      - Pool_🇹🇼TW_1190
       - CYL-科技（2022.01.31）
-      - Earth_237
-      - CA_176 |33.25Mb
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.01.31） 2
-      - Ytb:鹏哥分享_加拿大_99
+      - 中国_YouTube：8度科技
+      - TW_1235 |11.12Mb
+      - Relay_🇹🇼TW-🇹🇼TW_910 |22.94Mb
       - CN_476+|+8.30Mb
-      - US_448
-      - Relay_🇪🇪EE-🇯🇵JP_102 |10.91Mb
-      - 科技网络 248
-      - _GB_英国_高速_371
       - Relay_🇹🇼TW-🇹🇼TW_1086
-      - CYL-科技（2022.01.31） 3
-      - 科技网络 196
-      - CYL-科技（2022.01.31） 4
-      - 中国【YouTube由零開始】
-      - CYL-科技（2022.01.31） 5
-      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
-      - _US_美国
-      - _US_美国 2
-      - Atlanta-GTHost 358
-      - _GB_英国_高速_460
-      - _GB_英国_高速_358
-      - CYL-科技（2022.01.31） 6
-      - _FR_法国
-      - Ytb:鹏哥分享_加拿大_68
-      - CA_178 |60.49Mb
-      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_300_20.57Mb
-      - CYL-科技（2022.01.31） 7
-      - Relay_🇯🇵JP-🇯🇵JP_140
-      - _US_美国 3
-      - CA_82
+      - Relay_🇹🇼TW-🇹🇼TW_1192
+      - Relay_🇹🇼TW-🇹🇼TW_113
+      - 美国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 2
+      - 印度_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - Relay_🇹🇼TW-🇹🇼TW_1193
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
       - Relay_🇨🇳CN-🇹🇼TW_269
-      - _GB_英国_高速_411
-      - US_381
-      - US_510
-      - FR_193
-      - Frankfurt-Linode 251
-      - 科技网络 49
-      - 科技网络 261
-      - CYL-科技（2022.01.31） 8
-      - CYL-科技（2022.01.31） 9
-      - CYL-科技（2022.01.31） 10
-      - CYL-科技（2022.01.31） 11
-      - 科技网络 30
-      - 科技网络 144
-      - CYL-科技（2022.01.31） 12
-      - _US_美国 4
-      - 中国【YouTube由零開始】 2
-      - _GB_英国_高速_73
-      - _US_美国 5
-      - _US_美国 6
+      - 印度_YouTube：8度科技 2
+      - _GB_英国_高速_459
+      - CYL-科技（2021.01.02）
+      - US_448
+      - 美国_YouTube：8度科技 6
+      - _GB_英国_高速_358
+      - CYL-科技（2022.01.31） 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 法国_YouTube：8度科技
+      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
+      - 加拿大_YouTube：8度科技 2
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 10
+      - TW_1135 |18.40Mb
+      - 美国_YouTube：8度科技 11
+      - _US_美国
+      - 美国_YouTube：8度科技 12
+      - CYL-科技（2022.01.31） 3
+      - Relay_🇨🇳CN-🇹🇼TW_347 |12.55Mb
+      - 加拿大_YouTube：8度科技 3
+      - Relay_🇨🇳CN-🇹🇼TW_183
+      - _GB_英国_高速_371
+      - 加拿大_YouTube：8度科技 4
+      - 中国_YouTube：8度科技 3
+      - Ytb:鹏哥分享_加拿大_99
+      - 英国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 13
+      - CYL-科技（2022.01.31） 4
+      - Relay_🇨🇳CN-🇹🇼TW_293
+      - Relay_🇨🇳CN-🇹🇼TW_59 | 3.96Mb
+      - Relay_🇹🇼TW-🇹🇼TW_1087
+      - 加拿大_YouTube：8度科技 7
+      - _US_美国 2
+      - 英国_YouTube：8度科技 3
+      - CN_430+|10.06Mb
+      - 英国_YouTube：8度科技 4
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 5
+      - CA_82
+      - 加拿大_YouTube：8度科技 10
       - 科技网络 387
+      - 美国_YouTube：8度科技 15
+      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - Relay_🇨🇳CN-🇹🇼TW_310 |20.09Mb
+      - 英国_YouTube：8度科技 5
+      - US_381
+      - Relay_🇨🇳CN-🇹🇼TW_316
+      - 加拿大_YouTube：8度科技 11
+      - CYL-科技（2022.01.31） 6
+      - CYL-科技（2022.01.31） 7
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.31） 8
+      - _US_美国 3
+      - _AU_澳大利亚
+      - 美国_YouTube：8度科技 16
       - _CA_加拿大
-      - +Miami-GTHost
-      - _FR_法国 2
-      - _CA_加拿大 2
-      - Frankfurt-Linode 35
-      - Frankfurt-Linode 8
-      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 9
+      - Frankfurt-GTHost 99
+      - CA_75
+      - CYL-科技（2022.01.31） 10
+      - _GB_英国_高速_339
+      - _加拿大_YouTube:VV科技_33
+      - 科技网络 372
+      - 法国_YouTube：8度科技 2
+      - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 12
+      - FR_193
+      - +Paris-Online
+      - （晓猛社区）_119
+      - +Limburg+an+der+Lahn-OVH
+      - CYL-科技（2022.01.31） 13
+      - CYL-科技（2022.01.31） 14
+      - 科技网络 173
+      - CYL-科技（2022.01.31） 15
+      - 加拿大_YouTube：8度科技 12
+      - 香港1•流媒•负载均衡•2x
+      - 日本4•华东入口•1x
+      - "IN #2 中转"
+      - 美国_YouTube：8度科技 17
+      - Ytb:鹏哥分享_加拿大_102
+      - _德国_YouTube:VV科技_21
+      - 科技网络 160
+      - 加拿大_YouTube：8度科技 13
+      - 韩国2•1.5x
+      - 新加坡 | 101 | AWS | 1x
+      - CYL-科技（2022.01.31） 16
+      - CYL-科技（2022.01.31） 17
+      - CYL-科技（2022.01.31） 18
+      - CYL-科技（2022.01.31） 19
+      - 加拿大_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 20
+      - CYL-科技（2022.01.31） 21
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 美国1•流媒解锁•1x
+      - CYL-科技（2022.01.31） 24
+      - 台灣2•华南入口2•HiNet•流媒解锁•2x
+      - _GB_英国_高速_290
+      - （晓猛社区）_101
+      - 英国_YouTube：8度科技 6
+      - 科技网络 28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -668,71 +1246,135 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _GB_英国_高速_459
-      - Relay_🇹🇼TW-🇹🇼TW_1087
       - 27美国∞中转
-      - US_471
+      - Pool_🇹🇼TW_1190
       - CYL-科技（2022.01.31）
-      - Earth_237
-      - CA_176 |33.25Mb
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.01.31） 2
-      - Ytb:鹏哥分享_加拿大_99
+      - 中国_YouTube：8度科技
+      - TW_1235 |11.12Mb
+      - Relay_🇹🇼TW-🇹🇼TW_910 |22.94Mb
       - CN_476+|+8.30Mb
-      - US_448
-      - Relay_🇪🇪EE-🇯🇵JP_102 |10.91Mb
-      - 科技网络 248
-      - _GB_英国_高速_371
       - Relay_🇹🇼TW-🇹🇼TW_1086
-      - CYL-科技（2022.01.31） 3
-      - 科技网络 196
-      - CYL-科技（2022.01.31） 4
-      - 中国【YouTube由零開始】
-      - CYL-科技（2022.01.31） 5
-      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
-      - _US_美国
-      - _US_美国 2
-      - Atlanta-GTHost 358
-      - _GB_英国_高速_460
-      - _GB_英国_高速_358
-      - CYL-科技（2022.01.31） 6
-      - _FR_法国
-      - Ytb:鹏哥分享_加拿大_68
-      - CA_178 |60.49Mb
-      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_300_20.57Mb
-      - CYL-科技（2022.01.31） 7
-      - Relay_🇯🇵JP-🇯🇵JP_140
-      - _US_美国 3
-      - CA_82
+      - Relay_🇹🇼TW-🇹🇼TW_1192
+      - Relay_🇹🇼TW-🇹🇼TW_113
+      - 美国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 2
+      - 印度_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - Relay_🇹🇼TW-🇹🇼TW_1193
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
       - Relay_🇨🇳CN-🇹🇼TW_269
-      - _GB_英国_高速_411
-      - US_381
-      - US_510
-      - FR_193
-      - Frankfurt-Linode 251
-      - 科技网络 49
-      - 科技网络 261
-      - CYL-科技（2022.01.31） 8
-      - CYL-科技（2022.01.31） 9
-      - CYL-科技（2022.01.31） 10
-      - CYL-科技（2022.01.31） 11
-      - 科技网络 30
-      - 科技网络 144
-      - CYL-科技（2022.01.31） 12
-      - _US_美国 4
-      - 中国【YouTube由零開始】 2
-      - _GB_英国_高速_73
-      - _US_美国 5
-      - _US_美国 6
+      - 印度_YouTube：8度科技 2
+      - _GB_英国_高速_459
+      - CYL-科技（2021.01.02）
+      - US_448
+      - 美国_YouTube：8度科技 6
+      - _GB_英国_高速_358
+      - CYL-科技（2022.01.31） 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 法国_YouTube：8度科技
+      - Relay_🇨🇳CN-🇹🇼TW_328_29.38Mb
+      - 加拿大_YouTube：8度科技 2
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 10
+      - TW_1135 |18.40Mb
+      - 美国_YouTube：8度科技 11
+      - _US_美国
+      - 美国_YouTube：8度科技 12
+      - CYL-科技（2022.01.31） 3
+      - Relay_🇨🇳CN-🇹🇼TW_347 |12.55Mb
+      - 加拿大_YouTube：8度科技 3
+      - Relay_🇨🇳CN-🇹🇼TW_183
+      - _GB_英国_高速_371
+      - 加拿大_YouTube：8度科技 4
+      - 中国_YouTube：8度科技 3
+      - Ytb:鹏哥分享_加拿大_99
+      - 英国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 13
+      - CYL-科技（2022.01.31） 4
+      - Relay_🇨🇳CN-🇹🇼TW_293
+      - Relay_🇨🇳CN-🇹🇼TW_59 | 3.96Mb
+      - Relay_🇹🇼TW-🇹🇼TW_1087
+      - 加拿大_YouTube：8度科技 7
+      - _US_美国 2
+      - 英国_YouTube：8度科技 3
+      - CN_430+|10.06Mb
+      - 英国_YouTube：8度科技 4
+      - ♥️♥️YouTube梦歌♥️♥️_488
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 5
+      - CA_82
+      - 加拿大_YouTube：8度科技 10
       - 科技网络 387
+      - 美国_YouTube：8度科技 15
+      - Relay_🇨🇳CN-🇹🇼TW_251 | 5.58Mb
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - Relay_🇨🇳CN-🇹🇼TW_310 |20.09Mb
+      - 英国_YouTube：8度科技 5
+      - US_381
+      - Relay_🇨🇳CN-🇹🇼TW_316
+      - 加拿大_YouTube：8度科技 11
+      - CYL-科技（2022.01.31） 6
+      - CYL-科技（2022.01.31） 7
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.31） 8
+      - _US_美国 3
+      - _AU_澳大利亚
+      - 美国_YouTube：8度科技 16
       - _CA_加拿大
-      - +Miami-GTHost
-      - _FR_法国 2
-      - _CA_加拿大 2
-      - Frankfurt-Linode 35
-      - Frankfurt-Linode 8
-      - Dallas-GTHost 595
+      - CYL-科技（2022.01.31） 9
+      - Frankfurt-GTHost 99
+      - CA_75
+      - CYL-科技（2022.01.31） 10
+      - _GB_英国_高速_339
+      - _加拿大_YouTube:VV科技_33
+      - 科技网络 372
+      - 法国_YouTube：8度科技 2
+      - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 12
+      - FR_193
+      - +Paris-Online
+      - （晓猛社区）_119
+      - +Limburg+an+der+Lahn-OVH
+      - CYL-科技（2022.01.31） 13
+      - CYL-科技（2022.01.31） 14
+      - 科技网络 173
+      - CYL-科技（2022.01.31） 15
+      - 加拿大_YouTube：8度科技 12
+      - 香港1•流媒•负载均衡•2x
+      - 日本4•华东入口•1x
+      - "IN #2 中转"
+      - 美国_YouTube：8度科技 17
+      - Ytb:鹏哥分享_加拿大_102
+      - _德国_YouTube:VV科技_21
+      - 科技网络 160
+      - 加拿大_YouTube：8度科技 13
+      - 韩国2•1.5x
+      - 新加坡 | 101 | AWS | 1x
+      - CYL-科技（2022.01.31） 16
+      - CYL-科技（2022.01.31） 17
+      - CYL-科技（2022.01.31） 18
+      - CYL-科技（2022.01.31） 19
+      - 加拿大_YouTube：8度科技 14
+      - CYL-科技（2022.01.31） 20
+      - CYL-科技（2022.01.31） 21
+      - CYL-科技（2022.01.31） 22
+      - CYL-科技（2022.01.31） 23
+      - 美国1•流媒解锁•1x
+      - CYL-科技（2022.01.31） 24
+      - 台灣2•华南入口2•HiNet•流媒解锁•2x
+      - _GB_英国_高速_290
+      - （晓猛社区）_101
+      - 英国_YouTube：8度科技 6
+      - 科技网络 28
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
