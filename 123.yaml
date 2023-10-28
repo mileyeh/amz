@@ -5,13 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "", server: tkus4.imusicat.com, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 11889c0b-c1aa-4364-d826-c7567af850cc, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tkus4.imusicat.com}}, udp: true}
+  - {name: "", server: tkus4.imusicat.com, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 11889c0b-c1tkus22-4364-d826-c7567af850cc, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tkus4.imusicat.com}}, udp: true}
   - {name: tkus3.imusicat.com, server: tkus3.imusicat.com, port: 20000, client-fingerprint: chrome, type: vmess, uuid: 99543646-a8cb-406d-b4a9-64fe625836d1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: tkus3.imusicat.com}}, udp: true}
   - {name: tkus1.imusicat.com, server: tkus1.imusicat.com, port: 20000, client-fingerprint: chrome, type: vmess, uuid: b07e7442-da7e-49d7-8dc4-4ede3e8d0bdb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: tkus1.imusicat.com}}, udp: true}
   - {name: twtwtw, server: northflank.imusicat.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: northflank.imusicat.com}}, udp: true}
-  - {name: icook.tw tkus4.imusicat.com, server: icook.tw, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 11889c0b-c1aa-4364-d826-c7567af850cc, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tkus4.imusicat.com}}, udp: true}
-  - {name: aa, server: 74.48.157.6, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 123fdc8c-f8ef-40f5-a5aa-d7bc961e6319, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wss}, udp: true}
-  - {name: tkus5, server: 148.135.4.128, port: 20000, client-fingerprint: chrome, type: vmess, uuid: e8079c7f-4177-4eaa-9645-7805439ca371, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: icook.tw tkus4.imusicat.com, server: icook.tw, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 11889c0b-c1tkus22-4364-d826-c7567af850cc, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tkus4.imusicat.com}}, udp: true}
+  - {name: tkus22, server: 74.48.157.6, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 123fdc8c-f8ef-40f5-a5tkus22-d7bc961e6319, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wss}, udp: true}
+  - {name: tkus5, server: 148.135.4.128, port: 20000, client-fingerprint: chrome, type: vmess, uuid: e8079c7f-4177-4etkus22-9645-7805439ca371, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -23,7 +23,7 @@ proxy-groups:
       - tkus1.imusicat.com
       - twtwtw
       - icook.tw tkus4.imusicat.com
-      - aa
+      - tkus22
       - tkus5
   - name: ♻️ 自动选择
     type: url-test
@@ -35,7 +35,7 @@ proxy-groups:
       - tkus1.imusicat.com
       - twtwtw
       - icook.tw tkus4.imusicat.com
-      - aa
+      - tkus22
       - tkus5
   - name: 🎥 NETFLIX
     type: select
@@ -48,7 +48,7 @@ proxy-groups:
       - tkus1.imusicat.com
       - twtwtw
       - icook.tw tkus4.imusicat.com
-      - aa
+      - tkus22
       - tkus5
   - name: ⛔️ 广告拦截
     type: select
@@ -73,7 +73,7 @@ proxy-groups:
       - tkus1.imusicat.com
       - twtwtw
       - icook.tw tkus4.imusicat.com
-      - aa
+      - tkus22
       - tkus5
   - name: 🌏 国内媒体
     type: select
@@ -92,7 +92,7 @@ proxy-groups:
       - tkus1.imusicat.com
       - twtwtw
       - icook.tw tkus4.imusicat.com
-      - aa
+      - tkus22
       - tkus5
   - name: 📲 电报信息
     type: select
@@ -104,7 +104,7 @@ proxy-groups:
       - tkus1.imusicat.com
       - twtwtw
       - icook.tw tkus4.imusicat.com
-      - aa
+      - tkus22
       - tkus5
   - name: 🍎 苹果服务
     type: select
@@ -117,7 +117,7 @@ proxy-groups:
       - tkus1.imusicat.com
       - twtwtw
       - icook.tw tkus4.imusicat.com
-      - aa
+      - tkus22
       - tkus5
   - name: 🎯 全球直连
     type: select
@@ -139,7 +139,7 @@ proxy-groups:
       - tkus1.imusicat.com
       - twtwtw
       - icook.tw tkus4.imusicat.com
-      - aa
+      - tkus22
       - tkus5
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
@@ -154,7 +154,7 @@ rules:
   - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
   - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
-  - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,tkus22drm.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,acompli.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,acompli.net,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,aka.ms,Ⓜ️ 微软服务
@@ -281,7 +281,7 @@ rules:
   - DOMAIN-SUFFIX,androidgo.duapp.com,🛑 全球拦截
   - DOMAIN-SUFFIX,api.cupid.iqiyi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,api.cupid.qiyi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,c.uaa.iqiyi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,c.utkus22.iqiyi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,cloudpush.iqiyi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,cm.passport.iqiyi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,count.game.pps.tv,🛑 全球拦截
@@ -482,11 +482,11 @@ rules:
   - DOMAIN-SUFFIX,010teacher.com,🛑 全球拦截
   - DOMAIN-SUFFIX,010xk.com,🛑 全球拦截
   - DOMAIN-SUFFIX,018520.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,01daa.lubih.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,01daa.lutci.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,01daa.lutgh.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,01daa.luvbr.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,01daa.luytr.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,01dtkus22.lubih.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,01dtkus22.lutci.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,01dtkus22.lutgh.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,01dtkus22.luvbr.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,01dtkus22.luytr.com,🛑 全球拦截
   - DOMAIN-SUFFIX,022aifang.com,🛑 全球拦截
   - DOMAIN-SUFFIX,023hysj.com,🛑 全球拦截
   - DOMAIN-SUFFIX,025suyu.com,🛑 全球拦截
@@ -993,16 +993,16 @@ rules:
   - DOMAIN-SUFFIX,a7shun.com,🛑 全球拦截
   - DOMAIN-SUFFIX,a907907.com,🛑 全球拦截
   - DOMAIN-SUFFIX,a9377j.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,aa.goodsblock.mgid.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,aa.jiankang.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,aa.tianya999.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,aa.xiangxiangmf.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,aa.zldh123.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,aa0.pub.funshion.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,aa1.pub.funshion.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,aafanke.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,aa-gb.mgid.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,aam.adsremote.scrippsnetworks.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tkus22.goodsblock.mgid.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tkus22.jiankang.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tkus22.tianya999.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tkus22.xiangxiangmf.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tkus22.zldh123.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tkus220.pub.funshion.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tkus221.pub.funshion.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tkus22fanke.cc,🛑 全球拦截
+  - DOMAIN-SUFFIX,tkus22-gb.mgid.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,tkus22m.adsremote.scrippsnetworks.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ab.dydab.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ab.goodsblock.mgid.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ab.hysdknb.com,🛑 全球拦截
@@ -1725,7 +1725,7 @@ rules:
   - DOMAIN-SUFFIX,appfh.com,🛑 全球拦截
   - DOMAIN-SUFFIX,app-g.39.net,🛑 全球拦截
   - DOMAIN-SUFFIX,appget.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,appgift.sinaapp.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,appgift.sintkus22pp.com,🛑 全球拦截
   - DOMAIN-SUFFIX,appjiagu.com,🛑 全球拦截
   - DOMAIN-SUFFIX,applifier.com,🛑 全球拦截
   - DOMAIN-SUFFIX,applog.uc.cn,🛑 全球拦截
@@ -1742,7 +1742,7 @@ rules:
   - DOMAIN-SUFFIX,appspromote.wostore.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,appsrv1.madserving.com,🛑 全球拦截
   - DOMAIN-SUFFIX,appsrv4.madserving.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,appsupdate.sinaapp.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,appsupdate.sintkus22pp.com,🛑 全球拦截
   - DOMAIN-SUFFIX,appsupport.stargame.com,🛑 全球拦截
   - DOMAIN-SUFFIX,apptentive.com,🛑 全球拦截
   - DOMAIN-SUFFIX,appuu.cn,🛑 全球拦截
@@ -2041,7 +2041,7 @@ rules:
   - DOMAIN-SUFFIX,bkdg.net,🛑 全球拦截
   - DOMAIN-SUFFIX,bl.wavecdn.de,🛑 全球拦截
   - DOMAIN-SUFFIX,bla.gtimg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,blaaaa12.googlecode.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,bltkus22tkus2212.googlecode.com,🛑 全球拦截
   - DOMAIN-SUFFIX,blb.winasdaq.com,🛑 全球拦截
   - DOMAIN-SUFFIX,bllbaby.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,blogad01.myweb.hinet.net,🛑 全球拦截
@@ -2226,7 +2226,7 @@ rules:
   - DOMAIN-SUFFIX,c8b.jcdb88.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ca.5173car.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ca.w8.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,caamei.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ctkus22mei.com,🛑 全球拦截
   - DOMAIN-SUFFIX,cacaca.0571yy.com,🛑 全球拦截
   - DOMAIN-SUFFIX,cacaca.sp96878.com,🛑 全球拦截
   - DOMAIN-SUFFIX,cacafly.net,🛑 全球拦截
@@ -2400,7 +2400,7 @@ rules:
   - DOMAIN-SUFFIX,chuantu.biz,🛑 全球拦截
   - DOMAIN-SUFFIX,chushoushijian.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,c-hzgt2.getui.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ci.csefaazc.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,ci.cseftkus22zc.net,🛑 全球拦截
   - DOMAIN-SUFFIX,ciajingman.com,🛑 全球拦截
   - DOMAIN-SUFFIX,cilidaquan.pw,🛑 全球拦截
   - DOMAIN-SUFFIX,cindy17club.com,🛑 全球拦截
@@ -2767,7 +2767,7 @@ rules:
   - DOMAIN-SUFFIX,d8360.com,🛑 全球拦截
   - DOMAIN-SUFFIX,d8885.com,🛑 全球拦截
   - DOMAIN-SUFFIX,d9.sina.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,daa.shuzilm.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,dtkus22.shuzilm.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,dacash.streamplay.to,🛑 全球拦截
   - DOMAIN-SUFFIX,dadjia.com,🛑 全球拦截
   - DOMAIN-SUFFIX,dads.new.digg.com,🛑 全球拦截
@@ -3148,7 +3148,7 @@ rules:
   - DOMAIN-SUFFIX,e.28487.net,🛑 全球拦截
   - DOMAIN-SUFFIX,e.51xmgys.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.91.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,e.aa985.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,e.tkus22985.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,e.acaog.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.acaox.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.admin60.com,🛑 全球拦截
@@ -3214,7 +3214,7 @@ rules:
   - DOMAIN-SUFFIX,e.hogyp.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.hpzyl.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.htper.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,e.huaas.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,e.hutkus22s.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.hunpp.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.huoas.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.hurnt.com,🛑 全球拦截
@@ -3228,7 +3228,7 @@ rules:
   - DOMAIN-SUFFIX,e.ishowms.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.jdaot.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.jgkto.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,e.jiaas.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,e.jitkus22s.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.jiirz.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.jioeg.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.jkert.com,🛑 全球拦截
@@ -3310,7 +3310,7 @@ rules:
   - DOMAIN-SUFFIX,e.tiantianedu.net,🛑 全球拦截
   - DOMAIN-SUFFIX,e.tick0.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.tiojk.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,e.tuoaa.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,e.tuotkus22.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.ueram.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.uissm.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.v02u9.cn,🛑 全球拦截
@@ -3679,7 +3679,7 @@ rules:
   - DOMAIN-SUFFIX,g3.iqilu.com,🛑 全球拦截
   - DOMAIN-SUFFIX,g4.iqilu.com,🛑 全球拦截
   - DOMAIN-SUFFIX,g9s.sgzs999.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,gaandroid.talkingdata.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,gtkus22ndroid.talkingdata.net,🛑 全球拦截
   - DOMAIN-SUFFIX,gad.kugou.com,🛑 全球拦截
   - DOMAIN-SUFFIX,gadwhy.com,🛑 全球拦截
   - DOMAIN-SUFFIX,gafxa.code.mytanwan.com,🛑 全球拦截
@@ -3991,7 +3991,7 @@ rules:
   - DOMAIN-SUFFIX,hnol.net,🛑 全球拦截
   - DOMAIN-SUFFIX,hnxxjn.com,🛑 全球拦截
   - DOMAIN-SUFFIX,hnyny.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,hoisin.coocaatv.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,hoisin.cooctkus22tv.com,🛑 全球拦截
   - DOMAIN-SUFFIX,home520.com,🛑 全球拦截
   - DOMAIN-SUFFIX,hoplink.ksosoft.com,🛑 全球拦截
   - DOMAIN-SUFFIX,hosting.miarroba.info,🛑 全球拦截
@@ -5051,7 +5051,7 @@ rules:
   - DOMAIN-SUFFIX,m.gglay.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.gtiou.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.gtnde.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,m.guaas.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,m.gutkus22s.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.guanren11.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.guanren5.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.guanren6.com,🛑 全球拦截
@@ -5130,7 +5130,7 @@ rules:
   - DOMAIN-SUFFIX,m.miiuv.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.miupp.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.mmkvi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,m.mouaa.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,m.moutkus22.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.mqgpo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.mrtuo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.mtuoa.com,🛑 全球拦截
@@ -5144,7 +5144,7 @@ rules:
   - DOMAIN-SUFFIX,m.niegg.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.nmtouzi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.nnfiy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,m.nouaa.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,m.noutkus22.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.nthtcs.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.ntxiangtai.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.nuxyz.cn,🛑 全球拦截
@@ -5159,7 +5159,7 @@ rules:
   - DOMAIN-SUFFIX,m.pbino.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.phonthing.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.picbr.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,m.pieaa.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,m.pietkus22.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.plerv.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.pomkl.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.poonscn.com,🛑 全球拦截
@@ -5200,7 +5200,7 @@ rules:
   - DOMAIN-SUFFIX,m.srrux.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.suehy.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.sxxca.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,m.symaa.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,m.symtkus22.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,m.symab.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,m.symac.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,m.symad.cn,🛑 全球拦截
@@ -5278,7 +5278,7 @@ rules:
   - DOMAIN-SUFFIX,m.yzjlsb.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.zabxb.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.zaoss.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,m.zeiaa.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,m.zeitkus22.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.zenffs.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,m.zenwq.com,🛑 全球拦截
   - DOMAIN-SUFFIX,m.zhuyuanp.club,🛑 全球拦截
@@ -6733,8 +6733,8 @@ rules:
   - DOMAIN-SUFFIX,simba.m.taobao.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sina.wrating.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sina.yinstar.org,🛑 全球拦截
-  - DOMAIN-SUFFIX,sinaalicdn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sinaaliyun.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,sintkus22licdn.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,sintkus22liyun.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,siqwqjza.m.yikanxiaoshuo.net,🛑 全球拦截
   - DOMAIN-SUFFIX,sis.jpush.io,🛑 全球拦截
   - DOMAIN-SUFFIX,sit.gentags.net,🛑 全球拦截
@@ -7057,7 +7057,7 @@ rules:
   - DOMAIN-SUFFIX,t75.qyqc4s.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ta.qq.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ta80.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,taat00889.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ttkus22t00889.com,🛑 全球拦截
   - DOMAIN-SUFFIX,tactics.bainv.net,🛑 全球拦截
   - DOMAIN-SUFFIX,tad.suning.com,🛑 全球拦截
   - DOMAIN-SUFFIX,tag.cdnmaster.cn,🛑 全球拦截
@@ -7529,7 +7529,7 @@ rules:
   - DOMAIN-SUFFIX,w.m.taobao.com,🛑 全球拦截
   - DOMAIN-SUFFIX,w.punchbox.org,🛑 全球拦截
   - DOMAIN-SUFFIX,w.sharethis.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,w.waacorp.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,w.wtkus22corp.com,🛑 全球拦截
   - DOMAIN-SUFFIX,w.werpig.com,🛑 全球拦截
   - DOMAIN-SUFFIX,w.x.baidu.com,🛑 全球拦截
   - DOMAIN-SUFFIX,w.xiaopiaoyou.com,🛑 全球拦截
@@ -7640,7 +7640,7 @@ rules:
   - DOMAIN-SUFFIX,widget.crowdignite.com,🛑 全球拦截
   - DOMAIN-SUFFIX,widget.directory.dailycommercial.com,🛑 全球拦截
   - DOMAIN-SUFFIX,widget.kelkoo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,widget.raaze.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,widget.rtkus22ze.com,🛑 全球拦截
   - DOMAIN-SUFFIX,widget.searchschoolsnetwork.com,🛑 全球拦截
   - DOMAIN-SUFFIX,widget.shopstyle.com.au,🛑 全球拦截
   - DOMAIN-SUFFIX,widget.solarquotes.com.au,🛑 全球拦截
@@ -8281,7 +8281,7 @@ rules:
   - DOMAIN-SUFFIX,scorecardresearch.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sdkclick.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuzilm.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,smaato.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,smtkus22to.net,🛑 全球拦截
   - DOMAIN-SUFFIX,smartadserver.com,🛑 全球拦截
   - DOMAIN-SUFFIX,smartnews-ads.com,🛑 全球拦截
   - DOMAIN-SUFFIX,tagtic.cn,🛑 全球拦截
@@ -9359,7 +9359,7 @@ rules:
   - DOMAIN-SUFFIX,nowe.com,🌍 国外媒体
   - DOMAIN-SUFFIX,nowestatic.com,🌍 国外媒体
   - DOMAIN-SUFFIX,cbsi.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,cbsaavideo.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,cbstkus22video.com,🌍 国外媒体
   - DOMAIN-SUFFIX,cbsivideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,paramountplus.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pplusstatic.com,🌍 国外媒体
@@ -9793,7 +9793,7 @@ rules:
   - DOMAIN-SUFFIX,now.com,🔰 节点选择
   - DOMAIN-SUFFIX,nrk.no,🔰 节点选择
   - DOMAIN-SUFFIX,nuget.org,🔰 节点选择
-  - DOMAIN-SUFFIX,nyaa.si,🔰 节点选择
+  - DOMAIN-SUFFIX,nytkus22.si,🔰 节点选择
   - DOMAIN-SUFFIX,ok.ru,🔰 节点选择
   - DOMAIN-SUFFIX,on.cc,🔰 节点选择
   - DOMAIN-SUFFIX,orientaldaily.com.my,🔰 节点选择
@@ -10031,7 +10031,7 @@ rules:
   - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
   - DOMAIN-SUFFIX,zaobao.com.sg,🔰 节点选择
   - DOMAIN,international-gfe.download.nvidia.com,🔰 节点选择
-  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,tkus22plimg.com,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
@@ -10072,7 +10072,7 @@ rules:
   - DOMAIN-SUFFIX,youku.com,🎯 全球直连
   - DOMAIN-SUFFIX,xiami.com,🎯 全球直连
   - DOMAIN-SUFFIX,xiami.net,🎯 全球直连
-  - DOMAIN-SUFFIX,aaplimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tkus22plimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,apple.co,🎯 全球直连
   - DOMAIN-SUFFIX,apple.com,🎯 全球直连
   - DOMAIN-SUFFIX,apple-cloudkit.com,🎯 全球直连
